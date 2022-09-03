@@ -1,0 +1,15 @@
+package exercicios;
+
+import javax.swing.JOptionPane;
+
+public class Calculadora {
+
+	public static void main(String[] args) {
+		int numero1 = 0, numero2 = 0;
+		
+		JOptionPane.showInputDialog(numero1);
+		JOptionPane.showInputDialog(numero2);
+
+	}
+
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="exercicios.JOptionPane"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Veiculo"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Produto"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Vendedor"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.VendedorFixo"/>
+    <fullyQualifiedTypeName name="org.br.serratec.model.Medico"/>
+    <fullyQualifiedTypeName name="org.br.serratec.model.Clinica"/>
+    <fullyQualifiedTypeName name="org.br.serratec.model.Anestesista"/>
+    <fullyQualifiedTypeName name="org.br.serratec.model.PlanoDeSaude"/>
+    <fullyQualifiedTypeName name="org.br.serratec.control.ControlePagamento"/>
+    <fullyQualifiedTypeName name="org.br.serratec.model.Pessoa"/>
+    <fullyQualifiedTypeName name="org.br.serratec.model.Imovel"/>
+    <fullyQualifiedTypeName name="org.br.serratec.model.Categoria"/>
+    <fullyQualifiedTypeName name="org.br.serratec.model.Lutador"/>
+    <fullyQualifiedTypeName name="org.br.serratec.model.Luta"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Proprietario"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Imovel"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Casa"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Apartamento"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Assistente"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Diretor"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Gerente"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.text.Format"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.ContaCorrente"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Pessoa"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Empresa"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Livro"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Operacao"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Pais"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Atleta"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Telefone"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Contato"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Estado"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Cidade"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Endereco"/>
+</qualifiedTypeNameHistroy>

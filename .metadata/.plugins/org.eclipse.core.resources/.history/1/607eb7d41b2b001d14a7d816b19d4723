@@ -1,0 +1,6 @@
+package org.br.serratec.model;
+
+public class Categoria {
+	private String deescricao;
+	
+}

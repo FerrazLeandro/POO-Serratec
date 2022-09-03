@@ -1,0 +1,19 @@
+package br.org.serratec.model;
+
+public class Pessoa implements Tributacao {
+	private String nome;
+	private Double rendimentos;
+	
+	
+
+	@Override
+	public Double calcularImpostoDeRenda() {
+		return rendimentos * impostodeRendaPF;
+	}
+
+	@Override
+	public Double calcularICMS() {
+		return 0.0;
+	}
+
+}

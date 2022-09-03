@@ -1,0 +1,6 @@
+package org.br.serratec.model;
+
+public class Pessoa {
+	private String nome;
+	privatee String email;
+}

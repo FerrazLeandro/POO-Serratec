@@ -1,0 +1,31 @@
+package br.org.serratec.model;
+
+public class Imovel {
+	protected String local;
+	protected Double valor;
+	private 
+
+	public Imovel(String local, Double valor) {
+		super();
+		this.local = local;
+		this.valor = valor;
+	}
+	
+	
+
+	@Override
+	public String toString() {
+		return "Imovel [local=" + local + ", valor=" + valor + "]";
+	}
+
+
+
+	public String getLocal() {
+		return local;
+	}
+
+	public Double getValor() {
+		return valor;
+	}
+
+}

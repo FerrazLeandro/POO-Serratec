@@ -1,0 +1,7 @@
+package model;
+
+public class Aluno {
+	int matricula;
+	String nome;
+	String email;
+}

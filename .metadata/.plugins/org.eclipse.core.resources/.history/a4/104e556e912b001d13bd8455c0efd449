@@ -1,0 +1,17 @@
+package br.org.serratec.teste;
+
+import br.org.serratec.model.Empresa;
+import br.org.serratec.model.Pessoa;
+
+public class TesteImpostodeRenda {
+
+	public static void main(String[] args) {
+		Pessoa pessoa = new Pessoa("Leandro", 8200.);
+		Empresa empresa = new Empresa("Alterdata", 100000.);
+		
+		System.out.println(pessoa + " IRRF: " + pessoa.calcularImpostoDeRenda());
+		System.out.println(empresa + " Tributos: " + empresa.calcularICMS() + " IRRF: " + empresa.calcularImpostoDeRenda());
+
+	}
+
+}

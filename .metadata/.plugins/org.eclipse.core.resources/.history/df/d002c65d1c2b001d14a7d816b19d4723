@@ -1,0 +1,15 @@
+package org.br.serratec.model;
+
+public class Luta {
+	private Lutador desafiante;
+	private Lutador desafiado;
+	private Boolean confirmacao;
+	public Luta(Lutador desafiante, Lutador desafiado, Boolean confirmacao) {
+		super();
+		this.desafiante = desafiante;
+		this.desafiado = desafiado;
+		this.confirmacao = confirmacao;
+	}
+	
+	
+}

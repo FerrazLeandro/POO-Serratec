@@ -1,0 +1,14 @@
+package org.br.serratec.teste;
+
+import org.br.serratec.model.Imovel;
+import org.br.serratec.model.Pessoa;
+
+public class TesteImovel {
+
+	public static void main(String[] args) {
+		Pessoa pessoa = new Pessoa("Leandro", "teste@teste.com")
+		Imovel imovel = new Imovel("Casa", "Rio", 100000., pessoa);
+
+	}
+
+}

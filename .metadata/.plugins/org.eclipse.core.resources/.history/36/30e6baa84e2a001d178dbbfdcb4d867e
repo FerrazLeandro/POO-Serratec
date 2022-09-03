@@ -1,0 +1,12 @@
+package br.org.serratec.teste;
+
+import br.org.serratec.model.AtletaAmador;
+
+public class AtletaTeste {
+
+	public static void main(String[] args) {
+		AtletaAmador amador = new AtletaAmador("Leandro", "Masculino", null, null, null)
+
+	}
+
+}

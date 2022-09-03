@@ -1,0 +1,17 @@
+package exercicios;
+
+import javax.swing.JOptionPane;
+
+public class Calculadora {
+
+	public static void main(String[] args) {
+		int numero1, numero2;
+		
+		numero1 = JOptionPane.showInputDialog("Informe o primeiro numero: ");
+		JOptionPane.showInputDialog("Operação: ");
+		JOptionPane.showInputDialog("Informe o segundo numero: ");
+		
+
+	}
+
+}

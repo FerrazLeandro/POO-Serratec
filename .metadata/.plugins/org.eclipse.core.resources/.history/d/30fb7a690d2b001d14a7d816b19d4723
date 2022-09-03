@@ -1,0 +1,18 @@
+package org.br.serratec.control;
+
+public class ControlePagamento {
+	private Double totalGeral;
+
+	public Double getTotalGeral() {
+		return totalGeral;
+	}
+
+	public void setTotalGeral(Double totalGeral) {
+		this.totalGeral = totalGeral;
+	}
+	
+	public void calcularTotalPago() {
+		
+	}
+
+}

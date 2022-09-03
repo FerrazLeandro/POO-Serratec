@@ -1,0 +1,18 @@
+package br.org.serratec.teste;
+
+import br.org.serratec.model.Veiculo;
+
+public class TesteVeiculo {
+
+	public static void main(String[] args) {
+		Veiculo veiculo = new Veiculo();
+		veiculo.placa = "ABC-123";
+		veiculo.tipoCombustivel = "Flex";
+		veiculo.valor = 40000.00;
+		
+		System.out.println("O Valor do IPVA é: " + veiculo.calcularIPVA());
+		
+		
+	}
+
+}

@@ -1,0 +1,34 @@
+package br.org.serratec.model;
+
+public class Contato {
+	protected String nome;
+	private Telefone telefones[];
+
+	public Contato(String nome, Telefone[] telefones) {
+		super();
+		this.nome = nome;
+		this.telefones[] = telefones;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public Telefone[] getTelefones() {
+		return telefones;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public void setTelefones(Telefone[] telefones) {
+		this.telefones = telefones;
+	}
+	
+	public void mostrarTelefones() {
+		
+	}
+
+	
+}

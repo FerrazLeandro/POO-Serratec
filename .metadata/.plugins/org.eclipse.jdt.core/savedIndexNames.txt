@@ -1,0 +1,12 @@
+INDEX VERSION 1.131+C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\.metadata\.plugins\org.eclipse.jdt.core
+3110059969.index
+3461910359.index
+1301595159.index
+3037890242.index
+2744821051.index
+3555742132.index
+982774913.index
+2767675682.index
+542568059.index
+1040068760.index
+3496599979.index

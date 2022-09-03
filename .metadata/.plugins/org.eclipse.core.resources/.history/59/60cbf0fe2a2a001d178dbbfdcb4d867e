@@ -1,0 +1,38 @@
+package br.org.serratec.teste;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+import br.org.serratec.model.Produto;
+
+public class TesteProduto {
+
+	public static void main(String[] args) {
+		int quantidade, menu;
+		double valor;
+		double icms;
+		String descricao;
+		char opcao;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		while (opcao != 'S') {
+			System.out.print("Produto: ");
+			descricao = sc.next();
+			
+			System.out.print("Valor: ");
+			valor = sc.nextDouble();
+			
+			System.out.print("Quantidade: ");
+			quantidade = sc.nextInt();
+					
+			Produto prod = new Produto(descricao, valor, quantidade);
+			icms = prod.calcularIcms();
+			
+			System.out.println(icms);
+		}
+
+	}
+
+}

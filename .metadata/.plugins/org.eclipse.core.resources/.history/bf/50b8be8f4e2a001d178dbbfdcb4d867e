@@ -1,0 +1,10 @@
+package br.org.serratec.teste;
+
+public class AtletaTeste {
+
+	public static void main(String[] args) {
+		AtletaAmador amador = new Atl
+
+	}
+
+}

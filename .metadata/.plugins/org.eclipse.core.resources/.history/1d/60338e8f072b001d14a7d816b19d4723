@@ -1,0 +1,26 @@
+package org.br.serratec.model;
+
+public class Anestesista extends Medico {
+	private String tipoAnestesista;
+
+	public Anestesista(String empresa, Double valorPago, Double valorISS, Integer crm, String nome,
+			String tipoAnestesista) {
+		super(empresa, valorPago, valorISS, crm, nome);
+		this.tipoAnestesista = tipoAnestesista;
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString() + "Tipo Anestesia: " + tipoAnestesista;
+	}
+
+	public String getTipoAnestesista() {
+		return tipoAnestesista;
+	}
+	
+	@Override
+	public Double calcularConsulta() {
+		return super.calcularConsulta() + 100;
+	}
+}

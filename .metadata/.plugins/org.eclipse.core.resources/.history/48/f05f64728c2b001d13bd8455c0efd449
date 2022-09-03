@@ -1,0 +1,10 @@
+package br.org.serratec.teste;
+
+public class TesteConta {
+
+	public static void main(String[] args) {
+		Conta c
+
+	}
+
+}

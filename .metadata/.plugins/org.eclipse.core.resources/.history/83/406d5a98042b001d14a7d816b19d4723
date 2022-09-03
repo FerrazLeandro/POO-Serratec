@@ -1,0 +1,26 @@
+package org.br.serratec.model;
+
+public class Medico extends PlanoDeSaude {
+	private Integer crm;
+	private String nome;
+
+	public Medico(String empresa, Double valorPago, Double valorISS, Integer crm, String nome) {
+		super(empresa, valorPago, valorISS);
+		this.crm = crm;
+		this.nome = nome;
+	}
+	
+	@Override
+	public String toString() {
+		return "Nome: ; + nome + " CRM: " + 
+	}
+
+	public Integer getCrm() {
+		return crm;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+}

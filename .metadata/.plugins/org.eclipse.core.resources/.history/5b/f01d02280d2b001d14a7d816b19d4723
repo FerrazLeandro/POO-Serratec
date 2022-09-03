@@ -1,0 +1,7 @@
+package org.br.serratec.control;
+
+public class ControlePagamento {
+	private Double totalGeral;
+	
+	
+}

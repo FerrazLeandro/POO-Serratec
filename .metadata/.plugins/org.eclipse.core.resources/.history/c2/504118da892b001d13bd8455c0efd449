@@ -1,0 +1,8 @@
+package br.org.serratec.model;
+// Uma interface não pode ter instancias
+// Não posso fazer conta conta = new Conta();
+
+public interface Conta {
+	
+	public 
+}

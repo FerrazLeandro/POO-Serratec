@@ -1,0 +1,46 @@
+package br.org.serratec.model;
+
+public class Contato {
+	protected String nome;
+	private Telefone[] telefones;
+
+	public Contato(String nome, Telefone[] telefones) {
+		super();
+		this.nome = nome;
+		this.telefones = telefones;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public Telefone[] getTelefones() {
+		return telefones;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public void setTelefones(Telefone[] telefones) {
+		this.telefones = telefones;
+	}
+	
+	public void adicionarTelefone(Telefone telefones) {
+        for (int i = 0; i < atletas.length; i++) {
+            if (atletas[i] == null) {
+                atletas[i] = atleta;
+                break;
+            } 
+        }
+    }
+
+    public void listarAtletas() {
+        for (int i = 0; i < atletas.length; i++) {
+            System.out.println(atletas[i].getNomeAtleta());
+        }
+    }
+
+
+	
+}

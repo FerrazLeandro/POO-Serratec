@@ -1,0 +1,10 @@
+package exercicios;
+
+public class JOptionPane {
+
+	public static void main(String[] args) {
+		String nome = JOptionPane.showInputDialog("Informe o seu nome: ");
+
+	}
+
+}

@@ -1,0 +1,31 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class Dados {
+
+	public static void main(String[] args) {
+		Integer qtdPessoas = 4;
+		String nome;
+		double altura, maiorAltura, menorAltura, mediaAltura, peso, maiorPeso, menorPeso, mediaPeso;
+		Scanner sc = new Scanner(System.in);
+		
+		for (int i = 1; i <= qtdPessoas; i++) {
+			System.out.print("Informe o " + i + "º nome: ");
+			nome = sc.next();
+			System.out.print("Informe o peso do(a) " + nome + ": ");
+			peso  = sc.nextDouble();
+			System.out.print("Informe a altura do(a) " + nome + ": ");
+			altura = sc.nextDouble();
+			System.out.println("");
+			
+		
+					
+		}
+		
+		sc.close();
+		
+
+	}
+
+}

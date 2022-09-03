@@ -1,0 +1,14 @@
+package teste;
+
+import javax.swing.JOptionPane;
+
+public class Teste3EntradaDados {
+
+	public static void main(String[] args) {
+		String numero = JOptionPane.showInputDialog("Primeiro numero: ");
+		String numero2 = JOptionPane.showInputDialog("Segundo numero: ");
+		
+
+	}
+
+}

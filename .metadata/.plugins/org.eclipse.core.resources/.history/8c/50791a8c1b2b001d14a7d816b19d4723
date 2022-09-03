@@ -1,0 +1,7 @@
+package org.br.serratec.model;
+
+public class Lutador {
+	private String nome;
+	private Double peso;
+	private Integer 
+}

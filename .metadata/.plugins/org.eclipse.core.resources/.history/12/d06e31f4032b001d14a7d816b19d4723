@@ -1,0 +1,7 @@
+package org.br.serratec.model;
+
+public class PlanoDeSaude {
+	protected String empresa;
+	protected double valorPago;
+	
+}

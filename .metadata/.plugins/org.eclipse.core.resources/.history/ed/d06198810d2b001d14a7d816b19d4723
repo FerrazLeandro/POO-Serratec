@@ -1,0 +1,20 @@
+package org.br.serratec.control;
+
+import org.br.serratec.model.PlanoDeSaude;
+
+public class ControlePagamento {
+	private Double totalGeral;
+
+	public Double getTotalGeral() {
+		return totalGeral;
+	}
+
+	public void setTotalGeral(Double totalGeral) {
+		this.totalGeral = totalGeral;
+	}
+	
+	public void calcularTotalPago(Plano) {
+		total = total + 
+	}
+
+}

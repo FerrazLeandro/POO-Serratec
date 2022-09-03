@@ -1,0 +1,10 @@
+package org.br.serratec.teste;
+
+public class TesteLuta {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

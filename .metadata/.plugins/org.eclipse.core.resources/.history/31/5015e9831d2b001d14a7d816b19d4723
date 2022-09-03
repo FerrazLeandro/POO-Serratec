@@ -1,0 +1,11 @@
+package org.br.serratec.teste;
+
+import org.br.serratec.model.Categoria;
+
+public class TesteLuta {
+
+	public static void main(String[] args) {
+		Categoria categoria = new Categoria("PESO PESADO");
+	}
+
+}

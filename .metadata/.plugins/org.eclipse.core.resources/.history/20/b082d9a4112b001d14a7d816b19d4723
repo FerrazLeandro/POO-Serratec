@@ -1,0 +1,10 @@
+package org.br.serratec.teste;
+
+public class TesteImovel {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
