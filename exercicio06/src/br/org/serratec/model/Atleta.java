@@ -43,7 +43,9 @@ public class Atleta implements Olimpiadas{
 	}
 	
 	public void adicionarAtletas(Atleta atleta) {
-		totalParticipantes = totalParticipantes + 1;
+		if (atleta.verificaSituacao() == "Participará") {
+			totalParticipantes = totalParticipantes + 1;
+		}
 	}
 
 	@Override
