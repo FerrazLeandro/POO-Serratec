@@ -1,6 +1,0 @@
-package org.br.serratec.model;
-
-public class Imovel {
-private String tipo;
-private String 
-}

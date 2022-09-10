@@ -1,6 +1,0 @@
-package org.br.serratec.model;
-
-public class Clinica extends PlanoDeSaude {
-	private String razaoSocial;
-	private String 
-}

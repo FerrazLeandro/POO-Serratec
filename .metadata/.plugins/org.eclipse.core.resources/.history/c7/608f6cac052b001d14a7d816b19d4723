@@ -1,5 +1,0 @@
-package org.br.serratec.model;
-
-public class Anestesista extends Medico {
-	private String tipoAnestesista
-}

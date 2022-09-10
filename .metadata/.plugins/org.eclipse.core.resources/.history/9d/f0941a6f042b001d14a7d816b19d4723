@@ -1,8 +1,0 @@
-package org.br.serratec.model;
-
-public class Medico extends PlanoDeSaude {
-	private Integer crm;
-	private String nome;
-	
-	
-}
