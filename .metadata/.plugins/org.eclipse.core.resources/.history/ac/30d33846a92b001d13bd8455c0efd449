@@ -1,8 +1,0 @@
-package br.org.serratec.model;
-
-public interface Livraria {
-	Double taxaEmprestimo = 0.028;
-	
-	void venderLivro(Livro livro);
-	void emprestarLivro(Livro livro);
-}

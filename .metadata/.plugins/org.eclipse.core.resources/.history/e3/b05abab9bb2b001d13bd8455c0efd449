@@ -1,8 +1,0 @@
-package br.org.serratec.model;
-
-public class Cidade {
-	private String nomeCidade;
-	private Estado estado;
-	
-	
-}
