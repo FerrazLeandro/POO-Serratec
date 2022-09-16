@@ -13,5 +13,7 @@
     <typeInfo handle="=exercicio07/src&lt;br.org.serratec.model{Animal.java[Animal" modifiers="1025" timestamp="1662666466855"/>
     <typeInfo handle="=exercicio07/src&lt;br.org.serratec.model{Mamifero.java[Mamifero" modifiers="1025" timestamp="1662666929711"/>
     <typeInfo handle="=exercicio07/src&lt;br.org.serratec.model{AnimalDomestico.java[AnimalDomestico" modifiers="513" timestamp="1662667245811"/>
-    <typeInfo handle="=projeto-final-de-POO/src&lt;br.serratec.org.model{Calculos.java[Calculos" modifiers="513" timestamp="1663015901689"/>
+    <typeInfo handle="=aula13/src&lt;br.org.serratec.interfaces{CrudGenerico.java[CrudGenerico" modifiers="513" timestamp="1663196827964"/>
+    <typeInfo handle="=aula14/src&lt;br.org.serratec.interfaces{Conta.java[Conta" modifiers="513" timestamp="1663278462846"/>
+    <typeInfo handle="=aula14/C:\/Program Files\/Eclipse Adoptium\/jdk-11.0.16.8-hotspot\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/11\/docs\/api\/=/=/module=/true=/&lt;java.util.function(Consumer.class[Consumer" modifiers="1537" timestamp="1658330602000"/>
 </typeInfoHistroy>

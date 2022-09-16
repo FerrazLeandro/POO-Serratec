@@ -58,6 +58,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\ferraz.dsn.pack\Downloads\testcomplete-plugin-master"/>
 			<item value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO\Aula01"/>
 		</list>
 	</section>

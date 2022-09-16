@@ -6,6 +6,6 @@ public class CalculoMedia {
 		
 		
 		// throw lança a exceção
-		// throns obriga quem chama travar
+		// throws obriga quem chama travar
 	}
 }

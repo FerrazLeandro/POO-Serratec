@@ -343,3 +343,963 @@
 2022-09-12 15:05:29,993 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2022-09-12 17:31:15,043 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2022-09-12 17:41:06,009 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-09-13 15:09:54,326 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-09-13 17:35:21,923 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-09-14 15:29:36,395 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-09-15 06:33:56,363 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-09-15 06:34:27,375 [Worker-1: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-09-15 06:34:31,048 [Worker-1: Update Maven projects configuration] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact xml-apis:xml-apis:jar:2.0.2 has been relocated to xml-apis:xml-apis:jar:1.0.b2
+2022-09-15 06:34:38,245 [Worker-1: Update Maven projects configuration] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jenkins-ci.tools:maven-hpi-plugin:jar:2.6 is missing, no dependency information available
+2022-09-15 06:34:38,255 [Worker-1: Update Maven projects configuration] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to build parent project for org.jenkins-ci.plugins:TestComplete:hpi:2.9-SNAPSHOT
+2022-09-15 06:34:41,426 [Worker-1: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: org.jenkins-ci.plugins:TestComplete:2.9-SNAPSHOT @ C:\Users\ferraz.dsn.pack\Downloads\testcomplete-plugin-master\pom.xml.
+2022-09-15 06:34:42,992 [Worker-1: Update Maven projects configuration] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact xerces:xerces:jar:2.2.1 has been relocated to xerces:xercesImpl:jar:2.2.1
+2022-09-15 06:34:47,708 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/main/jenkins-core/2.60.1/jenkins-core-2.60.1.pom
+2022-09-15 06:34:48,998 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-core/2.60.1/jenkins-core-2.60.1.pom
+2022-09-15 06:34:49,593 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-core/2.60.1/jenkins-core-2.60.1.pom
+2022-09-15 06:34:49,736 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/main/pom/2.60.1/pom-2.60.1.pom
+2022-09-15 06:34:49,994 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/main/pom/2.60.1/pom-2.60.1.pom
+2022-09-15 06:34:50,505 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/main/pom/2.60.1/pom-2.60.1.pom
+2022-09-15 06:34:50,712 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/main/remoting/3.7/remoting-3.7.pom
+2022-09-15 06:34:51,017 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/main/remoting/3.7/remoting-3.7.pom
+2022-09-15 06:34:51,282 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/main/remoting/3.7/remoting-3.7.pom
+2022-09-15 06:34:51,421 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/main/cli/2.60.1/cli-2.60.1.pom
+2022-09-15 06:34:51,576 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/main/cli/2.60.1/cli-2.60.1.pom
+2022-09-15 06:34:51,919 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/main/cli/2.60.1/cli-2.60.1.pom
+2022-09-15 06:34:52,134 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/kohsuke/access-modifier-annotation/1.7/access-modifier-annotation-1.7.pom
+2022-09-15 06:34:52,359 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/kohsuke/access-modifier-annotation/1.7/access-modifier-annotation-1.7.pom
+2022-09-15 06:34:52,555 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/kohsuke/access-modifier/1.7/access-modifier-1.7.pom
+2022-09-15 06:34:52,721 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/kohsuke/access-modifier/1.7/access-modifier-1.7.pom
+2022-09-15 06:34:52,863 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.pom
+2022-09-15 06:34:53,019 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.pom
+2022-09-15 06:34:53,180 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.0.1/jnr-posix-3.0.1.pom
+2022-09-15 06:34:53,319 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.0.1/jnr-posix-3.0.1.pom
+2022-09-15 06:34:53,477 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/1.0.7/jnr-ffi-1.0.7.pom
+2022-09-15 06:34:53,705 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/1.0.7/jnr-ffi-1.0.7.pom
+2022-09-15 06:34:53,835 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.2.7/jffi-1.2.7.pom
+2022-09-15 06:34:54,006 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.2.7/jffi-1.2.7.pom
+2022-09-15 06:34:54,194 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm/4.0/asm-4.0.pom
+2022-09-15 06:34:54,403 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm/4.0/asm-4.0.pom
+2022-09-15 06:34:54,528 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/4.0/asm-parent-4.0.pom
+2022-09-15 06:34:54,696 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/4.0/asm-parent-4.0.pom
+2022-09-15 06:34:54,910 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/4.0/asm-commons-4.0.pom
+2022-09-15 06:34:55,050 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/4.0/asm-commons-4.0.pom
+2022-09-15 06:34:55,171 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/4.0/asm-tree-4.0.pom
+2022-09-15 06:34:55,302 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/4.0/asm-tree-4.0.pom
+2022-09-15 06:34:55,423 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/4.0/asm-analysis-4.0.pom
+2022-09-15 06:34:55,573 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/4.0/asm-analysis-4.0.pom
+2022-09-15 06:34:55,729 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/4.0/asm-util-4.0.pom
+2022-09-15 06:34:55,881 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/4.0/asm-util-4.0.pom
+2022-09-15 06:34:56,007 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.8.5/jnr-constants-0.8.5.pom
+2022-09-15 06:34:56,250 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.8.5/jnr-constants-0.8.5.pom
+2022-09-15 06:34:56,446 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/kohsuke/stapler/stapler-groovy/1.250/stapler-groovy-1.250.pom
+2022-09-15 06:34:56,657 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/kohsuke/stapler/stapler-groovy/1.250/stapler-groovy-1.250.pom
+2022-09-15 06:34:56,791 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/kohsuke/stapler/stapler-parent/1.250/stapler-parent-1.250.pom
+2022-09-15 06:34:56,980 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/kohsuke/stapler/stapler-parent/1.250/stapler-parent-1.250.pom
+2022-09-15 06:34:57,166 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/kohsuke/stapler/stapler-jelly/1.250/stapler-jelly-1.250.pom
+2022-09-15 06:34:57,339 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/kohsuke/stapler/stapler-jelly/1.250/stapler-jelly-1.250.pom
+2022-09-15 06:34:57,479 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/kohsuke/stapler/stapler/1.250/stapler-1.250.pom
+2022-09-15 06:34:57,629 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/kohsuke/stapler/stapler/1.250/stapler-1.250.pom
+2022-09-15 06:34:57,880 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/kohsuke/stapler/stapler-jrebel/1.250/stapler-jrebel-1.250.pom
+2022-09-15 06:34:58,089 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/kohsuke/stapler/stapler-jrebel/1.250/stapler-jrebel-1.250.pom
+2022-09-15 06:34:58,290 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/annotation-indexer/1.11/annotation-indexer-1.11.pom
+2022-09-15 06:34:58,743 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/annotation-indexer/1.11/annotation-indexer-1.11.pom
+2022-09-15 06:34:59,008 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/annotation-indexer/1.11/annotation-indexer-1.11.pom
+2022-09-15 06:34:59,131 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/task-reactor/1.4/task-reactor-1.4.pom
+2022-09-15 06:34:59,312 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/task-reactor/1.4/task-reactor-1.4.pom
+2022-09-15 06:34:59,530 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/task-reactor/1.4/task-reactor-1.4.pom
+2022-09-15 06:34:59,657 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.8.4/ant-1.8.4.pom
+2022-09-15 06:34:59,816 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.8.4/ant-1.8.4.pom
+2022-09-15 06:34:59,937 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.8.4/ant-parent-1.8.4.pom
+2022-09-15 06:35:00,156 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.8.4/ant-parent-1.8.4.pom
+2022-09-15 06:35:00,280 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.8.4/ant-launcher-1.8.4.pom
+2022-09-15 06:35:00,415 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.8.4/ant-launcher-1.8.4.pom
+2022-09-15 06:35:00,430 [Worker-5: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact xerces:xerces:jar:2.2.1 has been relocated to xerces:xercesImpl:jar:2.2.1
+2022-09-15 06:35:00,556 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-all/2.4.8/groovy-all-2.4.8.pom
+2022-09-15 06:35:00,725 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-all/2.4.8/groovy-all-2.4.8.pom
+2022-09-15 06:35:00,856 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/jstl/1.1.0/jstl-1.1.0.pom
+2022-09-15 06:35:01,062 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/jstl/1.1.0/jstl-1.1.0.pom
+2022-09-15 06:35:01,184 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.pom
+2022-09-15 06:35:01,331 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.pom
+2022-09-15 06:35:01,464 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom
+2022-09-15 06:35:01,828 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom
+2022-09-15 06:35:01,959 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom
+2022-09-15 06:35:02,197 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom
+2022-09-15 06:35:02,322 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7.pom
+2022-09-15 06:35:02,514 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7.pom
+2022-09-15 06:35:02,665 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jvnet/winp/winp/1.24/winp-1.24.pom
+2022-09-15 06:35:02,916 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jvnet/winp/winp/1.24/winp-1.24.pom
+2022-09-15 06:35:03,100 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.3.1-jenkins-1/commons-fileupload-1.3.1-jenkins-1.pom
+2022-09-15 06:35:03,309 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/commons-fileupload/commons-fileupload/1.3.1-jenkins-1/commons-fileupload-1.3.1-jenkins-1.pom
+2022-09-15 06:35:03,829 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/commons-fileupload/commons-fileupload/1.3.1-jenkins-1/commons-fileupload-1.3.1-jenkins-1.pom
+2022-09-15 06:35:03,969 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/main/jenkins-war/2.60.1/jenkins-war-2.60.1.pom
+2022-09-15 06:35:04,331 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-war/2.60.1/jenkins-war-2.60.1.pom
+2022-09-15 06:35:04,851 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-war/2.60.1/jenkins-war-2.60.1.pom
+2022-09-15 06:35:05,046 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/modules/slave-installer/1.5/slave-installer-1.5.pom
+2022-09-15 06:35:05,215 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/slave-installer/1.5/slave-installer-1.5.pom
+2022-09-15 06:35:05,462 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/slave-installer/1.5/slave-installer-1.5.pom
+2022-09-15 06:35:05,602 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/modules/windows-slave-installer/1.9/windows-slave-installer-1.9.pom
+2022-09-15 06:35:05,758 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/windows-slave-installer/1.9/windows-slave-installer-1.9.pom
+2022-09-15 06:35:06,012 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/windows-slave-installer/1.9/windows-slave-installer-1.9.pom
+2022-09-15 06:35:06,134 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/plugins/plugin/2.26/plugin-2.26.pom
+2022-09-15 06:35:06,318 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/plugin/2.26/plugin-2.26.pom
+2022-09-15 06:35:06,708 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/plugin/2.26/plugin-2.26.pom
+2022-09-15 06:35:06,892 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/modules/sshd/1.11/sshd-1.11.pom
+2022-09-15 06:35:07,167 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/sshd/1.11/sshd-1.11.pom
+2022-09-15 06:35:07,514 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/sshd/1.11/sshd-1.11.pom
+2022-09-15 06:35:07,636 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/plugins/plugin/2.24/plugin-2.24.pom
+2022-09-15 06:35:08,119 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/plugin/2.24/plugin-2.24.pom
+2022-09-15 06:35:08,475 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/plugin/2.24/plugin-2.24.pom
+2022-09-15 06:35:08,634 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-core/0.14.0/sshd-core-0.14.0.pom
+2022-09-15 06:35:08,850 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-core/0.14.0/sshd-core-0.14.0.pom
+2022-09-15 06:35:08,996 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/sshd/sshd/0.14.0/sshd-0.14.0.pom
+2022-09-15 06:35:09,183 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/sshd/sshd/0.14.0/sshd-0.14.0.pom
+2022-09-15 06:35:09,305 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom
+2022-09-15 06:35:09,468 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom
+2022-09-15 06:35:09,656 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom
+2022-09-15 06:35:09,868 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom
+2022-09-15 06:35:10,065 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/modules/ssh-cli-auth/1.1/ssh-cli-auth-1.1.pom
+2022-09-15 06:35:10,213 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/ssh-cli-auth/1.1/ssh-cli-auth-1.1.pom
+2022-09-15 06:35:10,590 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/ssh-cli-auth/1.1/ssh-cli-auth-1.1.pom
+2022-09-15 06:35:10,726 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/plugins/plugin/1.417/plugin-1.417.pom
+2022-09-15 06:35:11,208 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/plugin/1.417/plugin-1.417.pom
+2022-09-15 06:35:11,519 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/plugin/1.417/plugin-1.417.pom
+2022-09-15 06:35:11,706 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/jenkins/1.21/jenkins-1.21.pom
+2022-09-15 06:35:11,907 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/jenkins/1.21/jenkins-1.21.pom
+2022-09-15 06:35:12,359 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/jenkins/1.21/jenkins-1.21.pom
+2022-09-15 06:35:12,487 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-jdk14/1.7.7/slf4j-jdk14-1.7.7.pom
+2022-09-15 06:35:12,739 [Worker-5: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-jdk14/1.7.7/slf4j-jdk14-1.7.7.pom
+2022-09-15 06:35:12,933 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/main/cli/2.60.1/cli-2.60.1.jar
+2022-09-15 06:35:13,051 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/1.0.7/jnr-ffi-1.0.7.jar
+2022-09-15 06:35:13,169 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/main/jenkins-core/2.60.1/jenkins-core-2.60.1.jar
+2022-09-15 06:35:13,169 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.0.1/jnr-posix-3.0.1.jar
+2022-09-15 06:35:13,169 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/main/remoting/3.7/remoting-3.7.jar
+2022-09-15 06:35:13,170 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.2.7/jffi-1.2.7.jar
+2022-09-15 06:35:13,419 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.2.7/jffi-1.2.7-native.jar
+2022-09-15 06:35:13,419 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm/4.0/asm-4.0.jar
+2022-09-15 06:35:13,679 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.2.7/jffi-1.2.7.jar
+2022-09-15 06:35:13,679 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.0.1/jnr-posix-3.0.1.jar
+2022-09-15 06:35:13,712 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm/4.0/asm-4.0.jar
+2022-09-15 06:35:13,746 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.2.7/jffi-1.2.7-native.jar
+2022-09-15 06:35:13,824 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/4.0/asm-analysis-4.0.jar
+2022-09-15 06:35:13,825 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/4.0/asm-commons-4.0.jar
+2022-09-15 06:35:13,849 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/1.0.7/jnr-ffi-1.0.7.jar
+2022-09-15 06:35:13,856 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/4.0/asm-tree-4.0.jar
+2022-09-15 06:35:13,944 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/4.0/asm-util-4.0.jar
+2022-09-15 06:35:13,976 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.8.5/jnr-constants-0.8.5.jar
+2022-09-15 06:35:14,066 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/4.0/asm-analysis-4.0.jar
+2022-09-15 06:35:14,097 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/4.0/asm-tree-4.0.jar
+2022-09-15 06:35:14,098 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/4.0/asm-commons-4.0.jar
+2022-09-15 06:35:14,197 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.8.5/jnr-constants-0.8.5.jar
+2022-09-15 06:35:14,212 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/4.0/asm-util-4.0.jar
+2022-09-15 06:35:14,215 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/kohsuke/stapler/stapler-groovy/1.250/stapler-groovy-1.250.jar
+2022-09-15 06:35:14,308 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/kohsuke/stapler/stapler-jelly/1.250/stapler-jelly-1.250.jar
+2022-09-15 06:35:14,309 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/kohsuke/stapler/stapler-jrebel/1.250/stapler-jrebel-1.250.jar
+2022-09-15 06:35:14,334 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/annotation-indexer/1.11/annotation-indexer-1.11.jar
+2022-09-15 06:35:14,338 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/kohsuke/stapler/stapler/1.250/stapler-1.250.jar
+2022-09-15 06:35:14,483 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/kohsuke/stapler/stapler-groovy/1.250/stapler-groovy-1.250.jar
+2022-09-15 06:35:14,483 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/kohsuke/stapler/stapler-jelly/1.250/stapler-jelly-1.250.jar
+2022-09-15 06:35:14,493 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/task-reactor/1.4/task-reactor-1.4.jar
+2022-09-15 06:35:14,516 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/kohsuke/stapler/stapler-jrebel/1.250/stapler-jrebel-1.250.jar
+2022-09-15 06:35:14,570 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/kohsuke/stapler/stapler/1.250/stapler-1.250.jar
+2022-09-15 06:35:14,609 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.8.4/ant-launcher-1.8.4.jar
+2022-09-15 06:35:14,611 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.8.4/ant-1.8.4.jar
+2022-09-15 06:35:14,743 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-all/2.4.8/groovy-all-2.4.8.jar
+2022-09-15 06:35:14,958 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/jstl/1.1.0/jstl-1.1.0.jar
+2022-09-15 06:35:15,090 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jvnet/winp/winp/1.24/winp-1.24.jar
+2022-09-15 06:35:15,095 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.8.4/ant-launcher-1.8.4.jar
+2022-09-15 06:35:15,368 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.8.4/ant-1.8.4.jar
+2022-09-15 06:35:15,488 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/jstl/1.1.0/jstl-1.1.0.jar
+2022-09-15 06:35:15,554 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/symbol-annotation/1.1/symbol-annotation-1.1.jar
+2022-09-15 06:35:15,652 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.jar
+2022-09-15 06:35:15,672 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jvnet/winp/winp/1.24/winp-1.24.jar
+2022-09-15 06:35:15,677 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.3.1-jenkins-1/commons-fileupload-1.3.1-jenkins-1.jar
+2022-09-15 06:35:15,692 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/main/jenkins-war/2.60.1/jenkins-war-2.60.1.war
+2022-09-15 06:35:15,796 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/modules/slave-installer/1.5/slave-installer-1.5.jar
+2022-09-15 06:35:15,823 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/modules/windows-slave-installer/1.9/windows-slave-installer-1.9.jar
+2022-09-15 06:35:15,915 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.jar
+2022-09-15 06:35:15,916 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-all/2.4.8/groovy-all-2.4.8.jar
+2022-09-15 06:35:15,922 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/modules/sshd/1.11/sshd-1.11.jar
+2022-09-15 06:35:15,946 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-core/0.14.0/sshd-core-0.14.0.jar
+2022-09-15 06:35:16,224 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-core/0.14.0/sshd-core-0.14.0.jar
+2022-09-15 06:35:16,630 [AetherRepositoryConnector-repo.jenkins-ci.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/main/remoting/3.7/remoting-3.7.jar
+2022-09-15 06:35:17,120 [AetherRepositoryConnector-repo.jenkins-ci.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/task-reactor/1.4/task-reactor-1.4.jar
+2022-09-15 06:35:17,120 [AetherRepositoryConnector-repo.jenkins-ci.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/annotation-indexer/1.11/annotation-indexer-1.11.jar
+2022-09-15 06:35:17,386 [AetherRepositoryConnector-repo.jenkins-ci.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-core/2.60.1/jenkins-core-2.60.1.jar
+2022-09-15 06:35:17,392 [AetherRepositoryConnector-repo.jenkins-ci.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/main/cli/2.60.1/cli-2.60.1.jar
+2022-09-15 06:35:17,628 [AetherRepositoryConnector-repo.jenkins-ci.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/task-reactor/1.4/task-reactor-1.4.jar
+2022-09-15 06:35:17,628 [AetherRepositoryConnector-repo.jenkins-ci.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/annotation-indexer/1.11/annotation-indexer-1.11.jar
+2022-09-15 06:35:17,964 [AetherRepositoryConnector-repo.jenkins-ci.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/symbol-annotation/1.1/symbol-annotation-1.1.jar
+2022-09-15 06:35:17,974 [AetherRepositoryConnector-repo.jenkins-ci.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/main/cli/2.60.1/cli-2.60.1.jar
+2022-09-15 06:35:17,979 [AetherRepositoryConnector-repo.jenkins-ci.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/commons-fileupload/commons-fileupload/1.3.1-jenkins-1/commons-fileupload-1.3.1-jenkins-1.jar
+2022-09-15 06:35:17,994 [AetherRepositoryConnector-repo.jenkins-ci.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/main/remoting/3.7/remoting-3.7.jar
+2022-09-15 06:35:18,156 [AetherRepositoryConnector-repo.jenkins-ci.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/slave-installer/1.5/slave-installer-1.5.jar
+2022-09-15 06:35:18,160 [AetherRepositoryConnector-repo.jenkins-ci.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/symbol-annotation/1.1/symbol-annotation-1.1.jar
+2022-09-15 06:35:18,471 [AetherRepositoryConnector-repo.jenkins-ci.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/slave-installer/1.5/slave-installer-1.5.jar
+2022-09-15 06:35:18,473 [AetherRepositoryConnector-repo.jenkins-ci.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/windows-slave-installer/1.9/windows-slave-installer-1.9.jar
+2022-09-15 06:35:18,491 [AetherRepositoryConnector-repo.jenkins-ci.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-war/2.60.1/jenkins-war-2.60.1.war
+2022-09-15 06:35:18,766 [AetherRepositoryConnector-repo.jenkins-ci.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/commons-fileupload/commons-fileupload/1.3.1-jenkins-1/commons-fileupload-1.3.1-jenkins-1.jar
+2022-09-15 06:35:18,795 [AetherRepositoryConnector-repo.jenkins-ci.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/sshd/1.11/sshd-1.11.jar
+2022-09-15 06:35:19,306 [AetherRepositoryConnector-repo.jenkins-ci.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/sshd/1.11/sshd-1.11.jar
+2022-09-15 06:35:19,307 [AetherRepositoryConnector-repo.jenkins-ci.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/windows-slave-installer/1.9/windows-slave-installer-1.9.jar
+2022-09-15 06:35:19,861 [AetherRepositoryConnector-repo.jenkins-ci.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-core/2.60.1/jenkins-core-2.60.1.jar
+2022-09-15 06:35:30,949 [AetherRepositoryConnector-repo.jenkins-ci.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-war/2.60.1/jenkins-war-2.60.1.war
+2022-09-15 06:35:30,963 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to build parent project for org.jenkins-ci.plugins:TestComplete:hpi:2.9-SNAPSHOT
+2022-09-15 06:35:31,450 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-15 06:35:31,453 [Worker-1: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating C:\Users\ferraz.dsn.pack\Downloads\testcomplete-plugin-master\target\test-classes\the.hpl
+2022-09-15 06:35:31,457 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2022-09-15 06:35:31,467 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-15 06:35:31,467 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ferraz.dsn.pack\Downloads\testcomplete-plugin-master\src\test\resources
+2022-09-15 06:35:31,469 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating C:\Users\ferraz.dsn.pack\Downloads\testcomplete-plugin-master\target\test-classes\the.hpl
+2022-09-15 06:35:31,876 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/junit/1.19/junit-1.19-sources.jar
+2022-09-15 06:35:32,967 [Worker-1: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /testcomplete-plugin-master/src/main/java
+2022-09-15 06:35:32,973 [Worker-1: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /testcomplete-plugin-master/target/generated-sources/localizer
+2022-09-15 06:35:32,973 [Worker-1: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /testcomplete-plugin-master/src/main/resources
+2022-09-15 06:35:32,987 [Worker-1: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /testcomplete-plugin-master/src/test/java
+2022-09-15 06:35:33,037 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/junit/1.19/junit-1.19-sources.jar
+2022-09-15 06:35:33,040 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci.plugins:junit:1.19
+2022-09-15 06:35:33,783 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/credentials/2.1.19/credentials-2.1.19-sources.jar
+2022-09-15 06:35:34,817 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/credentials/2.1.19/credentials-2.1.19-sources.jar
+2022-09-15 06:35:34,819 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci.plugins:credentials:2.1.19
+2022-09-15 06:35:35,614 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/antlr/antlr4-runtime/4.5/antlr4-runtime-4.5-sources.jar
+2022-09-15 06:35:36,578 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/antlr/antlr4-runtime/4.5/antlr4-runtime-4.5-sources.jar
+2022-09-15 06:35:36,580 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.antlr:antlr4-runtime:4.5
+2022-09-15 06:35:37,729 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1-sources.jar
+2022-09-15 06:35:39,147 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1-sources.jar
+2022-09-15 06:35:39,150 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.abego.treelayout:org.abego.treelayout.core:1.0.1
+2022-09-15 06:35:39,739 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-15 06:35:39,743 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2022-09-15 06:35:39,926 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-15 06:35:39,926 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ferraz.dsn.pack\Downloads\testcomplete-plugin-master\src\test\resources
+2022-09-15 06:35:40,020 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/plain-credentials/1.5/plain-credentials-1.5-sources.jar
+2022-09-15 06:35:40,761 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/plain-credentials/1.5/plain-credentials-1.5-sources.jar
+2022-09-15 06:35:40,763 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci.plugins:plain-credentials:1.5
+2022-09-15 06:35:41,031 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-15 06:35:41,032 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-15 06:35:41,034 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-15 06:35:41,034 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ferraz.dsn.pack\Downloads\testcomplete-plugin-master\src\test\resources
+2022-09-15 06:35:41,077 [Worker-1: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 73 sec
+2022-09-15 06:35:41,716 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/structs/1.7/structs-1.7-sources.jar
+2022-09-15 06:35:42,159 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-15 06:35:42,159 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-15 06:35:42,160 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-15 06:35:42,161 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ferraz.dsn.pack\Downloads\testcomplete-plugin-master\src\test\resources
+2022-09-15 06:35:42,204 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/structs/1.7/structs-1.7-sources.jar
+2022-09-15 06:35:42,207 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci.plugins:structs:1.7
+2022-09-15 06:35:42,831 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/symbol-annotation/1.7/symbol-annotation-1.7-sources.jar
+2022-09-15 06:35:43,103 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/symbol-annotation/1.7/symbol-annotation-1.7-sources.jar
+2022-09-15 06:35:43,105 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci:symbol-annotation:1.7
+2022-09-15 06:35:43,903 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/com/google/code/findbugs/annotations/3.0.0/annotations-3.0.0-sources.jar
+2022-09-15 06:35:44,124 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/com/google/code/findbugs/annotations/3.0.0/annotations-3.0.0-sources.jar
+2022-09-15 06:35:44,127 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.code.findbugs:annotations:3.0.0
+2022-09-15 06:35:44,242 [Worker-11: Discover lifecycle mappings] INFO  o.e.m.i.discovery.MavenDiscovery - No lifecyle mapping found at jar:file:/C:/Users/FERRAZ~1.PAC/AppData/Local/Temp/RemoteBundleDiscoveryStrategy5070018957556374541.tmp/org.eclipse.m2e.discovery.oss_catalog_1.14.jar_5614399379778619333.jar!/lifecycle%2Forg.eclipse.m2e.discovery.lifecyclemapping.m2e-wtp.xml
+2022-09-15 06:35:44,242 [Worker-11: Discover lifecycle mappings] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-wtp does not contain lifecycle mapping metadata
+2022-09-15 06:35:44,243 [Worker-11: Discover lifecycle mappings] INFO  o.e.m.i.discovery.MavenDiscovery - No lifecyle mapping found at jar:file:/C:/Users/FERRAZ~1.PAC/AppData/Local/Temp/RemoteBundleDiscoveryStrategy5070018957556374541.tmp/org.eclipse.m2e.discovery.oss_catalog_1.14.jar_5614399379778619333.jar!/lifecycle%2Forg.eclipse.m2e.discovery.lifecyclemapping.m2e-egit.xml
+2022-09-15 06:35:44,243 [Worker-11: Discover lifecycle mappings] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit does not contain lifecycle mapping metadata
+2022-09-15 06:35:44,244 [Worker-11: Discover lifecycle mappings] INFO  o.e.m.i.discovery.MavenDiscovery - No lifecyle mapping found at jar:file:/C:/Users/FERRAZ~1.PAC/AppData/Local/Temp/RemoteBundleDiscoveryStrategy5070018957556374541.tmp/org.eclipse.m2e.discovery.oss_catalog_1.14.jar_5614399379778619333.jar!/lifecycle%2Forg.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive.xml
+2022-09-15 06:35:44,244 [Worker-11: Discover lifecycle mappings] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive does not contain lifecycle mapping metadata
+2022-09-15 06:35:44,257 [Worker-11: Discover lifecycle mappings] INFO  o.e.m.i.discovery.MavenDiscovery - No lifecyle mapping found at jar:file:/C:/Users/FERRAZ~1.PAC/AppData/Local/Temp/RemoteBundleDiscoveryStrategy5070018957556374541.tmp/org.eclipse.m2e.discovery.oss_catalog_1.14.jar_5614399379778619333.jar!/lifecycle%2Forg.eclipse.m2e.discovery.extras.m2e-chromatic.xml
+2022-09-15 06:35:44,258 [Worker-11: Discover lifecycle mappings] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.extras.m2e-chromatic does not contain lifecycle mapping metadata
+2022-09-15 06:35:44,847 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0-sources.jar
+2022-09-15 06:35:45,074 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0-sources.jar
+2022-09-15 06:35:45,077 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.jcip:jcip-annotations:1.0
+2022-09-15 06:35:45,833 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/codehaus/mojo/animal-sniffer-annotations/1.16/animal-sniffer-annotations-1.16-sources.jar
+2022-09-15 06:35:46,265 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/codehaus/mojo/animal-sniffer-annotations/1.16/animal-sniffer-annotations-1.16-sources.jar
+2022-09-15 06:35:46,268 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.codehaus.mojo:animal-sniffer-annotations:1.16
+2022-09-15 06:35:47,269 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar
+2022-09-15 06:35:48,075 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar
+2022-09-15 06:35:48,081 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:javax.servlet-api:3.1.0
+2022-09-15 06:35:48,894 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-core/2.121.1/jenkins-core-2.121.1-sources.jar
+2022-09-15 06:35:51,471 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-core/2.121.1/jenkins-core-2.121.1-sources.jar
+2022-09-15 06:35:51,474 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci.main:jenkins-core:2.121.1
+2022-09-15 06:35:52,336 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/icon-shim/icon-set/1.0.5/icon-set-1.0.5-sources.jar
+2022-09-15 06:35:52,799 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/icon-shim/icon-set/1.0.5/icon-set-1.0.5-sources.jar
+2022-09-15 06:35:52,801 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci.plugins.icon-shim:icon-set:1.0.5
+2022-09-15 06:35:53,686 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/constant-pool-scanner/1.2/constant-pool-scanner-1.2-sources.jar
+2022-09-15 06:35:54,173 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/constant-pool-scanner/1.2/constant-pool-scanner-1.2-sources.jar
+2022-09-15 06:35:54,175 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci:constant-pool-scanner:1.2
+2022-09-15 06:35:54,862 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/main/cli/2.121.1/cli-2.121.1-sources.jar
+2022-09-15 06:35:55,502 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/main/cli/2.121.1/cli-2.121.1-sources.jar
+2022-09-15 06:35:55,504 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci.main:cli:2.121.1
+2022-09-15 06:35:56,182 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/version-number/1.4/version-number-1.4-sources.jar
+2022-09-15 06:35:56,420 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/version-number/1.4/version-number-1.4-sources.jar
+2022-09-15 06:35:56,422 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci:version-number:1.4
+2022-09-15 06:35:57,476 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/crypto-util/1.1/crypto-util-1.1-sources.jar
+2022-09-15 06:35:57,921 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/crypto-util/1.1/crypto-util-1.1-sources.jar
+2022-09-15 06:35:57,924 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci:crypto-util:1.1
+2022-09-15 06:35:58,633 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jvnet/hudson/jtidy/4aug2000r7-dev-hudson-1/jtidy-4aug2000r7-dev-hudson-1-sources.jar
+2022-09-15 06:35:59,593 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jvnet/hudson/jtidy/4aug2000r7-dev-hudson-1/jtidy-4aug2000r7-dev-hudson-1-sources.jar
+2022-09-15 06:35:59,596 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jvnet.hudson:jtidy:4aug2000r7-dev-hudson-1
+2022-09-15 06:36:00,606 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/com/google/inject/guice/4.0/guice-4.0-sources.jar
+2022-09-15 06:36:01,325 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/com/google/inject/guice/4.0/guice-4.0-sources.jar
+2022-09-15 06:36:01,327 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.inject:guice:4.0
+2022-09-15 06:36:02,496 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/javax/inject/javax.inject/1/javax.inject-1-sources.jar
+2022-09-15 06:36:02,962 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/javax/inject/javax.inject/1/javax.inject-1-sources.jar
+2022-09-15 06:36:02,966 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.inject:javax.inject:1
+2022-09-15 06:36:03,825 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar
+2022-09-15 06:36:04,261 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar
+2022-09-15 06:36:04,266 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for aopalliance:aopalliance:1.0
+2022-09-15 06:36:05,362 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jruby/ext/posix/jna-posix/1.0.3-jenkins-1/jna-posix-1.0.3-jenkins-1-sources.jar
+2022-09-15 06:36:06,102 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jruby/ext/posix/jna-posix/1.0.3-jenkins-1/jna-posix-1.0.3-jenkins-1-sources.jar
+2022-09-15 06:36:06,106 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jruby.ext.posix:jna-posix:1.0.3-jenkins-1
+2022-09-15 06:36:06,796 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/com/github/jnr/jnr-posix/3.0.41/jnr-posix-3.0.41-sources.jar
+2022-09-15 06:36:07,624 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/com/github/jnr/jnr-posix/3.0.41/jnr-posix-3.0.41-sources.jar
+2022-09-15 06:36:07,628 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.jnr:jnr-posix:3.0.41
+2022-09-15 06:36:08,637 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/com/github/jnr/jnr-ffi/2.1.4/jnr-ffi-2.1.4-sources.jar
+2022-09-15 06:36:09,676 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/com/github/jnr/jnr-ffi/2.1.4/jnr-ffi-2.1.4-sources.jar
+2022-09-15 06:36:09,679 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.jnr:jnr-ffi:2.1.4
+2022-09-15 06:36:10,685 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/com/github/jnr/jffi/1.2.15/jffi-1.2.15-sources.jar
+2022-09-15 06:36:11,519 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/com/github/jnr/jffi/1.2.15/jffi-1.2.15-sources.jar
+2022-09-15 06:36:11,520 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.jnr:jffi:1.2.15
+2022-09-15 06:36:11,527 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.jnr:jffi:1.2.15:native
+2022-09-15 06:36:12,364 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar
+2022-09-15 06:36:13,450 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar
+2022-09-15 06:36:13,452 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.ow2.asm:asm:5.0.3
+2022-09-15 06:36:14,425 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3-sources.jar
+2022-09-15 06:36:15,720 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3-sources.jar
+2022-09-15 06:36:15,725 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.ow2.asm:asm-commons:5.0.3
+2022-09-15 06:36:16,421 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar
+2022-09-15 06:36:17,764 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar
+2022-09-15 06:36:17,767 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.ow2.asm:asm-analysis:5.0.3
+2022-09-15 06:36:18,609 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar
+2022-09-15 06:36:20,040 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar
+2022-09-15 06:36:20,047 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.ow2.asm:asm-tree:5.0.3
+2022-09-15 06:36:20,956 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3-sources.jar
+2022-09-15 06:36:22,085 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3-sources.jar
+2022-09-15 06:36:22,089 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.ow2.asm:asm-util:5.0.3
+2022-09-15 06:36:23,178 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2-sources.jar
+2022-09-15 06:36:24,170 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2-sources.jar
+2022-09-15 06:36:24,172 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.jnr:jnr-x86asm:1.0.2
+2022-09-15 06:36:24,977 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/com/github/jnr/jnr-constants/0.9.8/jnr-constants-0.9.8-sources.jar
+2022-09-15 06:36:25,887 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/com/github/jnr/jnr-constants/0.9.8/jnr-constants-0.9.8-sources.jar
+2022-09-15 06:36:25,889 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.jnr:jnr-constants:0.9.8
+2022-09-15 06:36:26,505 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/kohsuke/trilead-putty-extension/1.2/trilead-putty-extension-1.2-sources.jar
+2022-09-15 06:36:26,960 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/kohsuke/trilead-putty-extension/1.2/trilead-putty-extension-1.2-sources.jar
+2022-09-15 06:36:26,962 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.kohsuke:trilead-putty-extension:1.2
+2022-09-15 06:36:27,722 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/trilead-ssh2/build-217-jenkins-11/trilead-ssh2-build-217-jenkins-11-sources.jar
+2022-09-15 06:36:28,479 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/trilead-ssh2/build-217-jenkins-11/trilead-ssh2-build-217-jenkins-11-sources.jar
+2022-09-15 06:36:28,481 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci:trilead-ssh2:build-217-jenkins-11
+2022-09-15 06:36:29,413 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/net/i2p/crypto/eddsa/0.2.0/eddsa-0.2.0-sources.jar
+2022-09-15 06:36:30,044 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/net/i2p/crypto/eddsa/0.2.0/eddsa-0.2.0-sources.jar
+2022-09-15 06:36:30,047 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.i2p.crypto:eddsa:0.2.0
+2022-09-15 06:36:30,745 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/connectbot/jbcrypt/jbcrypt/1.0.0/jbcrypt-1.0.0-sources.jar
+2022-09-15 06:36:31,194 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/connectbot/jbcrypt/jbcrypt/1.0.0/jbcrypt-1.0.0-sources.jar
+2022-09-15 06:36:31,196 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.connectbot.jbcrypt:jbcrypt:1.0.0
+2022-09-15 06:36:32,075 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/kohsuke/stapler/stapler-groovy/1.254/stapler-groovy-1.254-sources.jar
+2022-09-15 06:36:33,086 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/kohsuke/stapler/stapler-groovy/1.254/stapler-groovy-1.254-sources.jar
+2022-09-15 06:36:33,088 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.kohsuke.stapler:stapler-groovy:1.254
+2022-09-15 06:36:33,981 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/kohsuke/stapler/stapler-jelly/1.254/stapler-jelly-1.254-sources.jar
+2022-09-15 06:36:34,664 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/kohsuke/stapler/stapler-jelly/1.254/stapler-jelly-1.254-sources.jar
+2022-09-15 06:36:34,667 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.kohsuke.stapler:stapler-jelly:1.254
+2022-09-15 06:36:35,311 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/commons-jelly/1.1-jenkins-20120928/commons-jelly-1.1-jenkins-20120928-sources.jar
+2022-09-15 06:36:36,261 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/commons-jelly/1.1-jenkins-20120928/commons-jelly-1.1-jenkins-20120928-sources.jar
+2022-09-15 06:36:36,264 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci:commons-jelly:1.1-jenkins-20120928
+2022-09-15 06:36:36,846 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/dom4j/dom4j/1.6.1-jenkins-4/dom4j-1.6.1-jenkins-4-sources.jar
+2022-09-15 06:36:37,834 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/dom4j/dom4j/1.6.1-jenkins-4/dom4j-1.6.1-jenkins-4-sources.jar
+2022-09-15 06:36:37,839 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci.dom4j:dom4j:1.6.1-jenkins-4
+2022-09-15 06:36:38,660 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/kohsuke/stapler/stapler-jrebel/1.254/stapler-jrebel-1.254-sources.jar
+2022-09-15 06:36:38,863 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/kohsuke/stapler/stapler-jrebel/1.254/stapler-jrebel-1.254-sources.jar
+2022-09-15 06:36:38,866 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.kohsuke.stapler:stapler-jrebel:1.254
+2022-09-15 06:36:39,972 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/kohsuke/stapler/stapler/1.254/stapler-1.254-sources.jar
+2022-09-15 06:36:40,820 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/kohsuke/stapler/stapler/1.254/stapler-1.254-sources.jar
+2022-09-15 06:36:40,823 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.kohsuke.stapler:stapler:1.254
+2022-09-15 06:36:41,823 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2-sources.jar
+2022-09-15 06:36:42,455 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2-sources.jar
+2022-09-15 06:36:42,458 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.annotation:javax.annotation-api:1.2
+2022-09-15 06:36:43,261 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/commons-discovery/commons-discovery/0.4/commons-discovery-0.4-sources.jar
+2022-09-15 06:36:43,725 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/commons-discovery/commons-discovery/0.4/commons-discovery-0.4-sources.jar
+2022-09-15 06:36:43,727 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-discovery:commons-discovery:0.4
+2022-09-15 06:36:44,557 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jvnet/tiger-types/2.2/tiger-types-2.2-sources.jar
+2022-09-15 06:36:45,095 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jvnet/tiger-types/2.2/tiger-types-2.2-sources.jar
+2022-09-15 06:36:45,098 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jvnet:tiger-types:2.2
+2022-09-15 06:36:45,897 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1-sources.jar
+2022-09-15 06:36:46,461 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1-sources.jar
+2022-09-15 06:36:46,470 [Worker-2: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.google.code.findbugs:jsr305:2.0.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.code.findbugs:jsr305:jar:sources:2.0.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-15 06:36:47,326 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/kohsuke/windows-package-checker/1.2/windows-package-checker-1.2-sources.jar
+2022-09-15 06:36:47,601 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/kohsuke/windows-package-checker/1.2/windows-package-checker-1.2-sources.jar
+2022-09-15 06:36:47,604 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.kohsuke:windows-package-checker:1.2
+2022-09-15 06:36:48,324 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/kohsuke/stapler/stapler-adjunct-zeroclipboard/1.3.5-1/stapler-adjunct-zeroclipboard-1.3.5-1-sources.jar
+2022-09-15 06:36:48,799 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/kohsuke/stapler/stapler-adjunct-zeroclipboard/1.3.5-1/stapler-adjunct-zeroclipboard-1.3.5-1-sources.jar
+2022-09-15 06:36:48,803 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.kohsuke.stapler:stapler-adjunct-zeroclipboard:1.3.5-1
+2022-09-15 06:36:49,803 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/kohsuke/stapler/stapler-adjunct-timeline/1.5/stapler-adjunct-timeline-1.5-sources.jar
+2022-09-15 06:36:50,463 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/kohsuke/stapler/stapler-adjunct-timeline/1.5/stapler-adjunct-timeline-1.5-sources.jar
+2022-09-15 06:36:50,465 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.kohsuke.stapler:stapler-adjunct-timeline:1.5
+2022-09-15 06:36:51,264 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/kohsuke/stapler/stapler-adjunct-codemirror/1.3/stapler-adjunct-codemirror-1.3-sources.jar
+2022-09-15 06:36:52,186 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/kohsuke/stapler/stapler-adjunct-codemirror/1.3/stapler-adjunct-codemirror-1.3-sources.jar
+2022-09-15 06:36:52,188 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.kohsuke.stapler:stapler-adjunct-codemirror:1.3
+2022-09-15 06:36:52,806 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/com/infradna/tool/bridge-method-annotation/1.13/bridge-method-annotation-1.13-sources.jar
+2022-09-15 06:36:53,069 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/com/infradna/tool/bridge-method-annotation/1.13/bridge-method-annotation-1.13-sources.jar
+2022-09-15 06:36:53,070 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.infradna.tool:bridge-method-annotation:1.13
+2022-09-15 06:36:54,029 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/kohsuke/stapler/json-lib/2.4-jenkins-2/json-lib-2.4-jenkins-2-sources.jar
+2022-09-15 06:36:54,791 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/kohsuke/stapler/json-lib/2.4-jenkins-2/json-lib-2.4-jenkins-2-sources.jar
+2022-09-15 06:36:54,795 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.kohsuke.stapler:json-lib:2.4-jenkins-2
+2022-09-15 06:36:55,686 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
+2022-09-15 06:36:56,219 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
+2022-09-15 06:36:56,221 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.2
+2022-09-15 06:36:56,960 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6-sources.jar
+2022-09-15 06:36:57,583 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6-sources.jar
+2022-09-15 06:36:57,585 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.sf.ezmorph:ezmorph:1.0.6
+2022-09-15 06:36:58,391 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/commons-httpclient/commons-httpclient/3.1-jenkins-1/commons-httpclient-3.1-jenkins-1-sources.jar
+2022-09-15 06:36:59,471 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/commons-httpclient/commons-httpclient/3.1-jenkins-1/commons-httpclient-3.1-jenkins-1-sources.jar
+2022-09-15 06:36:59,473 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-httpclient:commons-httpclient:3.1-jenkins-1
+2022-09-15 06:37:00,401 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/args4j/args4j/2.0.31/args4j-2.0.31-sources.jar
+2022-09-15 06:37:00,930 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/args4j/args4j/2.0.31/args4j-2.0.31-sources.jar
+2022-09-15 06:37:00,934 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for args4j:args4j:2.0.31
+2022-09-15 06:37:01,690 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/annotation-indexer/1.12/annotation-indexer-1.12-sources.jar
+2022-09-15 06:37:02,000 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/annotation-indexer/1.12/annotation-indexer-1.12-sources.jar
+2022-09-15 06:37:02,002 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci:annotation-indexer:1.12
+2022-09-15 06:37:02,741 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/bytecode-compatibility-transformer/1.8/bytecode-compatibility-transformer-1.8-sources.jar
+2022-09-15 06:37:03,127 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/bytecode-compatibility-transformer/1.8/bytecode-compatibility-transformer-1.8-sources.jar
+2022-09-15 06:37:03,133 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci:bytecode-compatibility-transformer:1.8
+2022-09-15 06:37:04,101 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/kohsuke/asm5/5.0.1/asm5-5.0.1-sources.jar
+2022-09-15 06:37:05,476 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/kohsuke/asm5/5.0.1/asm5-5.0.1-sources.jar
+2022-09-15 06:37:05,479 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.kohsuke:asm5:5.0.1
+2022-09-15 06:37:06,166 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/task-reactor/1.5/task-reactor-1.5-sources.jar
+2022-09-15 06:37:06,484 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/task-reactor/1.5/task-reactor-1.5-sources.jar
+2022-09-15 06:37:06,486 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci:task-reactor:1.5
+2022-09-15 06:37:07,278 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jvnet/localizer/localizer/1.24/localizer-1.24-sources.jar
+2022-09-15 06:37:07,637 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jvnet/localizer/localizer/1.24/localizer-1.24-sources.jar
+2022-09-15 06:37:07,641 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jvnet.localizer:localizer:1.24
+2022-09-15 06:37:08,303 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/antlr/antlr/2.7.6/antlr-2.7.6-sources.jar
+2022-09-15 06:37:09,251 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/antlr/antlr/2.7.6/antlr-2.7.6-sources.jar
+2022-09-15 06:37:09,253 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for antlr:antlr:2.7.6
+2022-09-15 06:37:09,970 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jvnet/hudson/xstream/1.4.7-jenkins-1/xstream-1.4.7-jenkins-1-sources.jar
+2022-09-15 06:37:10,929 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jvnet/hudson/xstream/1.4.7-jenkins-1/xstream-1.4.7-jenkins-1-sources.jar
+2022-09-15 06:37:10,933 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jvnet.hudson:xstream:1.4.7-jenkins-1
+2022-09-15 06:37:11,639 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/xpp3/xpp3/1.1.4c/xpp3-1.1.4c-sources.jar
+2022-09-15 06:37:12,285 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/xpp3/xpp3/1.1.4c/xpp3-1.1.4c-sources.jar
+2022-09-15 06:37:12,286 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for xpp3:xpp3:1.1.4c
+2022-09-15 06:37:12,997 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar
+2022-09-15 06:37:13,570 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar
+2022-09-15 06:37:13,572 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.sf.kxml:kxml2:2.3.0
+2022-09-15 06:37:14,500 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/jfree/jfreechart/1.0.9/jfreechart-1.0.9-sources.jar
+2022-09-15 06:37:15,783 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/jfree/jfreechart/1.0.9/jfreechart-1.0.9-sources.jar
+2022-09-15 06:37:15,788 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jfree:jfreechart:1.0.9
+2022-09-15 06:37:16,592 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/jfree/jcommon/1.0.12/jcommon-1.0.12-sources.jar
+2022-09-15 06:37:17,502 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/jfree/jcommon/1.0.12/jcommon-1.0.12-sources.jar
+2022-09-15 06:37:17,504 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jfree:jcommon:1.0.12
+2022-09-15 06:37:18,575 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/apache/ant/ant/1.9.2/ant-1.9.2-sources.jar
+2022-09-15 06:37:19,876 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/apache/ant/ant/1.9.2/ant-1.9.2-sources.jar
+2022-09-15 06:37:19,878 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.ant:ant:1.9.2
+2022-09-15 06:37:20,715 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/apache/ant/ant-launcher/1.9.2/ant-launcher-1.9.2-sources.jar
+2022-09-15 06:37:21,155 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/apache/ant/ant-launcher/1.9.2/ant-launcher-1.9.2-sources.jar
+2022-09-15 06:37:21,157 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.ant:ant-launcher:1.9.2
+2022-09-15 06:37:21,729 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/commons-io/commons-io/2.4/commons-io-2.4-sources.jar
+2022-09-15 06:37:23,808 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/commons-io/commons-io/2.4/commons-io-2.4-sources.jar
+2022-09-15 06:37:23,811 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.4
+2022-09-15 06:37:24,646 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar
+2022-09-15 06:37:25,619 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar
+2022-09-15 06:37:25,621 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-lang:commons-lang:2.6
+2022-09-15 06:37:26,433 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/commons-digester/commons-digester/2.1/commons-digester-2.1-sources.jar
+2022-09-15 06:37:27,124 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/commons-digester/commons-digester/2.1/commons-digester-2.1-sources.jar
+2022-09-15 06:37:27,126 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-digester:commons-digester:2.1
+2022-09-15 06:37:28,164 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3-sources.jar
+2022-09-15 06:37:29,140 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3-sources.jar
+2022-09-15 06:37:29,142 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-beanutils:commons-beanutils:1.8.3
+2022-09-15 06:37:29,839 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/apache/commons/commons-compress/1.10/commons-compress-1.10-sources.jar
+2022-09-15 06:37:30,796 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/apache/commons/commons-compress/1.10/commons-compress-1.10-sources.jar
+2022-09-15 06:37:30,798 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-compress:1.10
+2022-09-15 06:37:31,502 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/javax/mail/mail/1.4.4/mail-1.4.4-sources.jar
+2022-09-15 06:37:32,889 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/javax/mail/mail/1.4.4/mail-1.4.4-sources.jar
+2022-09-15 06:37:32,892 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.mail:mail:1.4.4
+2022-09-15 06:37:33,610 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jvnet/hudson/activation/1.1.1-hudson-1/activation-1.1.1-hudson-1-sources.jar
+2022-09-15 06:37:34,169 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jvnet/hudson/activation/1.1.1-hudson-1/activation-1.1.1-hudson-1-sources.jar
+2022-09-15 06:37:34,172 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jvnet.hudson:activation:1.1.1-hudson-1
+2022-09-15 06:37:35,677 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/jaxen/jaxen/1.1-beta-11/jaxen-1.1-beta-11-sources.jar
+2022-09-15 06:37:36,343 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jaxen/jaxen/1.1-beta-11/jaxen-1.1-beta-11-sources.jar
+2022-09-15 06:37:36,348 [Worker-2: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for jaxen:jaxen:1.1-beta-11
+org.eclipse.core.runtime.CoreException: Could not resolve artifact jaxen:jaxen:jar:sources:1.1-beta-11
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-15 06:37:37,240 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/commons-jelly/commons-jelly-tags-fmt/1.0/commons-jelly-tags-fmt-1.0-sources.jar
+2022-09-15 06:37:37,755 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/commons-jelly/commons-jelly-tags-fmt/1.0/commons-jelly-tags-fmt-1.0-sources.jar
+2022-09-15 06:37:37,758 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-jelly:commons-jelly-tags-fmt:1.0
+2022-09-15 06:37:39,537 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/commons-jelly/commons-jelly-tags-xml/1.1/commons-jelly-tags-xml-1.1-sources.jar
+2022-09-15 06:37:40,050 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-jelly/commons-jelly-tags-xml/1.1/commons-jelly-tags-xml-1.1-sources.jar
+2022-09-15 06:37:40,054 [Worker-2: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for commons-jelly:commons-jelly-tags-xml:1.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact commons-jelly:commons-jelly-tags-xml:jar:sources:1.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-15 06:37:40,899 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jvnet/hudson/commons-jelly-tags-define/1.0.1-hudson-20071021/commons-jelly-tags-define-1.0.1-hudson-20071021-sources.jar
+2022-09-15 06:37:41,300 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jvnet/hudson/commons-jelly-tags-define/1.0.1-hudson-20071021/commons-jelly-tags-define-1.0.1-hudson-20071021-sources.jar
+2022-09-15 06:37:41,302 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jvnet.hudson:commons-jelly-tags-define:1.0.1-hudson-20071021
+2022-09-15 06:37:42,177 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/commons-jexl/1.1-jenkins-20111212/commons-jexl-1.1-jenkins-20111212-sources.jar
+2022-09-15 06:37:42,918 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/commons-jexl/1.1-jenkins-20111212/commons-jexl-1.1-jenkins-20111212-sources.jar
+2022-09-15 06:37:42,922 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci:commons-jexl:1.1-jenkins-20111212
+2022-09-15 06:37:43,603 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/acegisecurity/acegi-security/1.0.7/acegi-security-1.0.7-sources.jar
+2022-09-15 06:37:44,726 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/acegisecurity/acegi-security/1.0.7/acegi-security-1.0.7-sources.jar
+2022-09-15 06:37:44,729 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.acegisecurity:acegi-security:1.0.7
+2022-09-15 06:37:46,735 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/springframework/spring-jdbc/1.2.9/spring-jdbc-1.2.9-sources.jar
+2022-09-15 06:37:47,264 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/1.2.9/spring-jdbc-1.2.9-sources.jar
+2022-09-15 06:37:47,265 [Worker-2: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework:spring-jdbc:1.2.9
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework:spring-jdbc:jar:sources:1.2.9
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-15 06:37:48,823 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/springframework/spring-dao/1.2.9/spring-dao-1.2.9-sources.jar
+2022-09-15 06:37:49,416 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-dao/1.2.9/spring-dao-1.2.9-sources.jar
+2022-09-15 06:37:49,421 [Worker-2: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework:spring-dao:1.2.9
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework:spring-dao:jar:sources:1.2.9
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-15 06:37:50,278 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/oro/oro/2.0.8/oro-2.0.8-sources.jar
+2022-09-15 06:37:51,056 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/oro/oro/2.0.8/oro-2.0.8-sources.jar
+2022-09-15 06:37:51,061 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for oro:oro:2.0.8
+2022-09-15 06:37:51,871 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar
+2022-09-15 06:37:53,000 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar
+2022-09-15 06:37:53,003 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for log4j:log4j:1.2.17
+2022-09-15 06:37:53,960 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/codehaus/groovy/groovy-all/2.4.11/groovy-all-2.4.11-sources.jar
+2022-09-15 06:37:55,595 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/codehaus/groovy/groovy-all/2.4.11/groovy-all-2.4.11-sources.jar
+2022-09-15 06:37:55,597 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.codehaus.groovy:groovy-all:2.4.11
+2022-09-15 06:37:56,365 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/jline/jline/2.12/jline-2.12-sources.jar
+2022-09-15 06:37:57,088 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/jline/jline/2.12/jline-2.12-sources.jar
+2022-09-15 06:37:57,091 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jline:jline:2.12
+2022-09-15 06:37:58,107 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/fusesource/jansi/jansi/1.11/jansi-1.11-sources.jar
+2022-09-15 06:37:58,431 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/fusesource/jansi/jansi/1.11/jansi-1.11-sources.jar
+2022-09-15 06:37:58,435 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.fusesource.jansi:jansi:1.11
+2022-09-15 06:37:59,255 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/springframework/spring-webmvc/2.5.6.SEC03/spring-webmvc-2.5.6.SEC03-sources.jar
+2022-09-15 06:38:00,453 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/springframework/spring-webmvc/2.5.6.SEC03/spring-webmvc-2.5.6.SEC03-sources.jar
+2022-09-15 06:38:00,455 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:2.5.6.SEC03
+2022-09-15 06:38:01,223 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/springframework/spring-beans/2.5.6.SEC03/spring-beans-2.5.6.SEC03-sources.jar
+2022-09-15 06:38:02,725 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/springframework/spring-beans/2.5.6.SEC03/spring-beans-2.5.6.SEC03-sources.jar
+2022-09-15 06:38:02,729 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:2.5.6.SEC03
+2022-09-15 06:38:03,874 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/springframework/spring-context/2.5.6.SEC03/spring-context-2.5.6.SEC03-sources.jar
+2022-09-15 06:38:04,968 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/springframework/spring-context/2.5.6.SEC03/spring-context-2.5.6.SEC03-sources.jar
+2022-09-15 06:38:04,970 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:2.5.6.SEC03
+2022-09-15 06:38:05,715 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/springframework/spring-context-support/2.5.6.SEC03/spring-context-support-2.5.6.SEC03-sources.jar
+2022-09-15 06:38:06,412 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/springframework/spring-context-support/2.5.6.SEC03/spring-context-support-2.5.6.SEC03-sources.jar
+2022-09-15 06:38:06,414 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context-support:2.5.6.SEC03
+2022-09-15 06:38:07,461 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/springframework/spring-web/2.5.6.SEC03/spring-web-2.5.6.SEC03-sources.jar
+2022-09-15 06:38:08,512 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/springframework/spring-web/2.5.6.SEC03/spring-web-2.5.6.SEC03-sources.jar
+2022-09-15 06:38:08,514 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:2.5.6.SEC03
+2022-09-15 06:38:09,230 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/springframework/spring-core/2.5.6.SEC03/spring-core-2.5.6.SEC03-sources.jar
+2022-09-15 06:38:09,986 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/springframework/spring-core/2.5.6.SEC03/spring-core-2.5.6.SEC03-sources.jar
+2022-09-15 06:38:09,988 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:2.5.6.SEC03
+2022-09-15 06:38:10,800 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/springframework/spring-aop/2.5.6.SEC03/spring-aop-2.5.6.SEC03-sources.jar
+2022-09-15 06:38:11,714 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/springframework/spring-aop/2.5.6.SEC03/spring-aop-2.5.6.SEC03-sources.jar
+2022-09-15 06:38:11,716 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:2.5.6.SEC03
+2022-09-15 06:38:12,791 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/javax/servlet/jsp/jstl/javax.servlet.jsp.jstl-api/1.2.1/javax.servlet.jsp.jstl-api-1.2.1-sources.jar
+2022-09-15 06:38:13,264 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/javax/servlet/jsp/jstl/javax.servlet.jsp.jstl-api/1.2.1/javax.servlet.jsp.jstl-api-1.2.1-sources.jar
+2022-09-15 06:38:13,266 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:1.2.1
+2022-09-15 06:38:14,167 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/com/sun/xml/txw2/txw2/20110809/txw2-20110809-sources.jar
+2022-09-15 06:38:14,778 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/com/sun/xml/txw2/txw2/20110809/txw2-20110809-sources.jar
+2022-09-15 06:38:14,783 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.xml.txw2:txw2:20110809
+2022-09-15 06:38:15,445 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2-sources.jar
+2022-09-15 06:38:16,103 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2-sources.jar
+2022-09-15 06:38:16,106 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.xml.stream:stax-api:1.0-2
+2022-09-15 06:38:16,886 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/relaxngDatatype/relaxngDatatype/20020414/relaxngDatatype-20020414-sources.jar
+2022-09-15 06:38:17,575 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/relaxngDatatype/relaxngDatatype/20020414/relaxngDatatype-20020414-sources.jar
+2022-09-15 06:38:17,579 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for relaxngDatatype:relaxngDatatype:20020414
+2022-09-15 06:38:18,361 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar
+2022-09-15 06:38:19,408 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar
+2022-09-15 06:38:19,410 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-collections:commons-collections:3.2.2
+2022-09-15 06:38:20,247 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jvnet/winp/winp/1.26/winp-1.26-sources.jar
+2022-09-15 06:38:20,943 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jvnet/winp/winp/1.26/winp-1.26-sources.jar
+2022-09-15 06:38:20,945 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jvnet.winp:winp:1.26
+2022-09-15 06:38:21,705 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/memory-monitor/1.9/memory-monitor-1.9-sources.jar
+2022-09-15 06:38:22,216 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/memory-monitor/1.9/memory-monitor-1.9-sources.jar
+2022-09-15 06:38:22,220 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci:memory-monitor:1.9
+2022-09-15 06:38:22,985 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/codehaus/woodstox/wstx-asl/3.2.9/wstx-asl-3.2.9-sources.jar
+2022-09-15 06:38:24,187 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/codehaus/woodstox/wstx-asl/3.2.9/wstx-asl-3.2.9-sources.jar
+2022-09-15 06:38:24,190 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.codehaus.woodstox:wstx-asl:3.2.9
+2022-09-15 06:38:24,966 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/stax/stax-api/1.0.1/stax-api-1.0.1-sources.jar
+2022-09-15 06:38:25,531 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1-sources.jar
+2022-09-15 06:38:25,535 [Worker-2: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for stax:stax-api:1.0.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact stax:stax-api:jar:sources:1.0.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-15 06:38:26,109 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/jmdns/3.4.0-jenkins-3/jmdns-3.4.0-jenkins-3-sources.jar
+2022-09-15 06:38:26,794 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/jmdns/3.4.0-jenkins-3/jmdns-3.4.0-jenkins-3-sources.jar
+2022-09-15 06:38:26,796 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci:jmdns:3.4.0-jenkins-3
+2022-09-15 06:38:27,502 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/net/java/dev/jna/jna/4.2.1/jna-4.2.1-sources.jar
+2022-09-15 06:38:28,114 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/net/java/dev/jna/jna/4.2.1/jna-4.2.1-sources.jar
+2022-09-15 06:38:28,118 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.java.dev.jna:jna:4.2.1
+2022-09-15 06:38:29,001 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/kohsuke/akuma/1.10/akuma-1.10-sources.jar
+2022-09-15 06:38:29,539 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/kohsuke/akuma/1.10/akuma-1.10-sources.jar
+2022-09-15 06:38:29,542 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.kohsuke:akuma:1.10
+2022-09-15 06:38:30,607 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/kohsuke/libpam4j/1.8/libpam4j-1.8-sources.jar
+2022-09-15 06:38:30,957 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/kohsuke/libpam4j/1.8/libpam4j-1.8-sources.jar
+2022-09-15 06:38:30,959 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.kohsuke:libpam4j:1.8
+2022-09-15 06:38:31,789 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/kohsuke/libzfs/0.8/libzfs-0.8-sources.jar
+2022-09-15 06:38:32,207 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/kohsuke/libzfs/0.8/libzfs-0.8-sources.jar
+2022-09-15 06:38:32,209 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.kohsuke:libzfs:0.8
+2022-09-15 06:38:32,903 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/com/sun/solaris/embedded_su4j/1.1/embedded_su4j-1.1-sources.jar
+2022-09-15 06:38:33,233 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/com/sun/solaris/embedded_su4j/1.1/embedded_su4j-1.1-sources.jar
+2022-09-15 06:38:33,235 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.solaris:embedded_su4j:1.1
+2022-09-15 06:38:34,153 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/net/java/sezpoz/sezpoz/1.12/sezpoz-1.12-sources.jar
+2022-09-15 06:38:34,885 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/net/java/sezpoz/sezpoz/1.12/sezpoz-1.12-sources.jar
+2022-09-15 06:38:34,889 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.java.sezpoz:sezpoz:1.12
+2022-09-15 06:38:35,552 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/kohsuke/jinterop/j-interop/2.0.6-kohsuke-1/j-interop-2.0.6-kohsuke-1-sources.jar
+2022-09-15 06:38:36,739 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/kohsuke/jinterop/j-interop/2.0.6-kohsuke-1/j-interop-2.0.6-kohsuke-1-sources.jar
+2022-09-15 06:38:36,741 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.kohsuke.jinterop:j-interop:2.0.6-kohsuke-1
+2022-09-15 06:38:37,732 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/kohsuke/jinterop/j-interopdeps/2.0.6-kohsuke-1/j-interopdeps-2.0.6-kohsuke-1-sources.jar
+2022-09-15 06:38:38,342 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/kohsuke/jinterop/j-interopdeps/2.0.6-kohsuke-1/j-interopdeps-2.0.6-kohsuke-1-sources.jar
+2022-09-15 06:38:38,346 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.kohsuke.jinterop:j-interopdeps:2.0.6-kohsuke-1
+2022-09-15 06:38:39,164 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/samba/jcifs/jcifs/1.2.19/jcifs-1.2.19-sources.jar
+2022-09-15 06:38:40,107 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/samba/jcifs/jcifs/1.2.19/jcifs-1.2.19-sources.jar
+2022-09-15 06:38:40,112 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.samba.jcifs:jcifs:1.2.19
+2022-09-15 06:38:40,905 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jvnet/robust-http-client/robust-http-client/1.2/robust-http-client-1.2-sources.jar
+2022-09-15 06:38:41,128 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jvnet/robust-http-client/robust-http-client/1.2/robust-http-client-1.2-sources.jar
+2022-09-15 06:38:41,130 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jvnet.robust-http-client:robust-http-client:1.2
+2022-09-15 06:38:42,135 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/commons-codec/commons-codec/1.9/commons-codec-1.9-sources.jar
+2022-09-15 06:38:43,064 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/commons-codec/commons-codec/1.9/commons-codec-1.9-sources.jar
+2022-09-15 06:38:43,066 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-codec:commons-codec:1.9
+2022-09-15 06:38:43,773 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/commons-fileupload/commons-fileupload/1.3.1-jenkins-2/commons-fileupload-1.3.1-jenkins-2-sources.jar
+2022-09-15 06:38:44,472 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/commons-fileupload/commons-fileupload/1.3.1-jenkins-2/commons-fileupload-1.3.1-jenkins-2-sources.jar
+2022-09-15 06:38:44,476 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.3.1-jenkins-2
+2022-09-15 06:38:45,299 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/com/google/guava/guava/11.0.1/guava-11.0.1-sources.jar
+2022-09-15 06:38:46,265 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/com/google/guava/guava/11.0.1/guava-11.0.1-sources.jar
+2022-09-15 06:38:46,267 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.guava:guava:11.0.1
+2022-09-15 06:38:46,806 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/com/jcraft/jzlib/1.1.3-kohsuke-1/jzlib-1.1.3-kohsuke-1-sources.jar
+2022-09-15 06:38:47,308 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/com/jcraft/jzlib/1.1.3-kohsuke-1/jzlib-1.1.3-kohsuke-1-sources.jar
+2022-09-15 06:38:47,311 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.jcraft:jzlib:1.1.3-kohsuke-1
+2022-09-15 06:38:48,707 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-war/2.121.1/jenkins-war-2.121.1-sources.jar
+2022-09-15 06:38:49,246 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/main/jenkins-war/2.121.1/jenkins-war-2.121.1-sources.jar
+2022-09-15 06:38:49,250 [Worker-2: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.jenkins-ci.main:jenkins-war:2.121.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.jenkins-ci.main:jenkins-war:jar:sources:2.121.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-15 06:38:49,809 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/instance-identity/2.1/instance-identity-2.1-sources.jar
+2022-09-15 06:38:50,278 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/instance-identity/2.1/instance-identity-2.1-sources.jar
+2022-09-15 06:38:50,280 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci.modules:instance-identity:2.1
+2022-09-15 06:38:50,935 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/io/github/stephenc/crypto/self-signed-cert-generator/1.0.0/self-signed-cert-generator-1.0.0-sources.jar
+2022-09-15 06:38:51,142 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/io/github/stephenc/crypto/self-signed-cert-generator/1.0.0/self-signed-cert-generator-1.0.0-sources.jar
+2022-09-15 06:38:51,145 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.stephenc.crypto:self-signed-cert-generator:1.0.0
+2022-09-15 06:38:51,961 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/ssh-cli-auth/1.4/ssh-cli-auth-1.4-sources.jar
+2022-09-15 06:38:52,333 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/ssh-cli-auth/1.4/ssh-cli-auth-1.4-sources.jar
+2022-09-15 06:38:52,335 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci.modules:ssh-cli-auth:1.4
+2022-09-15 06:38:53,071 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/slave-installer/1.6/slave-installer-1.6-sources.jar
+2022-09-15 06:38:53,524 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/slave-installer/1.6/slave-installer-1.6-sources.jar
+2022-09-15 06:38:53,526 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci.modules:slave-installer:1.6
+2022-09-15 06:38:54,404 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/windows-slave-installer/1.9.2/windows-slave-installer-1.9.2-sources.jar
+2022-09-15 06:38:54,812 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/windows-slave-installer/1.9.2/windows-slave-installer-1.9.2-sources.jar
+2022-09-15 06:38:54,815 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci.modules:windows-slave-installer:1.9.2
+2022-09-15 06:38:55,499 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/launchd-slave-installer/1.2/launchd-slave-installer-1.2-sources.jar
+2022-09-15 06:38:55,975 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/launchd-slave-installer/1.2/launchd-slave-installer-1.2-sources.jar
+2022-09-15 06:38:55,979 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci.modules:launchd-slave-installer:1.2
+2022-09-15 06:38:56,690 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/upstart-slave-installer/1.1/upstart-slave-installer-1.1-sources.jar
+2022-09-15 06:38:56,941 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/upstart-slave-installer/1.1/upstart-slave-installer-1.1-sources.jar
+2022-09-15 06:38:56,944 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci.modules:upstart-slave-installer:1.1
+2022-09-15 06:38:57,681 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/systemd-slave-installer/1.1/systemd-slave-installer-1.1-sources.jar
+2022-09-15 06:38:57,998 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/systemd-slave-installer/1.1/systemd-slave-installer-1.1-sources.jar
+2022-09-15 06:38:58,000 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci.modules:systemd-slave-installer:1.1
+2022-09-15 06:38:59,142 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/sshd/2.4/sshd-2.4-sources.jar
+2022-09-15 06:38:59,479 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/modules/sshd/2.4/sshd-2.4-sources.jar
+2022-09-15 06:38:59,482 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci.modules:sshd:2.4
+2022-09-15 06:39:00,317 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/apache/sshd/sshd-core/1.7.0/sshd-core-1.7.0-sources.jar
+2022-09-15 06:39:01,529 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/apache/sshd/sshd-core/1.7.0/sshd-core-1.7.0-sources.jar
+2022-09-15 06:39:01,530 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.sshd:sshd-core:1.7.0
+2022-09-15 06:39:02,613 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/ui/jquery-detached/1.2.1/jquery-detached-1.2.1-sources.jar
+2022-09-15 06:39:03,537 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/ui/jquery-detached/1.2.1/jquery-detached-1.2.1-sources.jar
+2022-09-15 06:39:03,541 [Worker-2: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.jenkins-ci.ui:jquery-detached:1.2.1:core-assets
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.jenkins-ci.ui:jquery-detached:jar:sources:1.2.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-15 06:39:05,481 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/ui/bootstrap/1.3.2/bootstrap-1.3.2-sources.jar
+2022-09-15 06:39:06,130 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/ui/bootstrap/1.3.2/bootstrap-1.3.2-sources.jar
+2022-09-15 06:39:06,135 [Worker-2: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.jenkins-ci.ui:bootstrap:1.3.2:core-assets
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.jenkins-ci.ui:bootstrap:jar:sources:1.3.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-15 06:39:07,734 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/ui/jquery-detached/1.2/jquery-detached-1.2-sources.jar
+2022-09-15 06:39:08,349 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/ui/jquery-detached/1.2/jquery-detached-1.2-sources.jar
+2022-09-15 06:39:08,351 [Worker-2: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.jenkins-ci.ui:jquery-detached:1.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.jenkins-ci.ui:jquery-detached:jar:sources:1.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-15 06:39:10,805 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/ui/handlebars/1.1.1/handlebars-1.1.1-sources.jar
+2022-09-15 06:39:11,431 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/ui/handlebars/1.1.1/handlebars-1.1.1-sources.jar
+2022-09-15 06:39:11,434 [Worker-2: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.jenkins-ci.ui:handlebars:1.1.1:core-assets
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.jenkins-ci.ui:handlebars:jar:sources:1.1.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-15 06:39:12,220 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-test-harness/2.38/jenkins-test-harness-2.38-sources.jar
+2022-09-15 06:39:13,032 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-test-harness/2.38/jenkins-test-harness-2.38-sources.jar
+2022-09-15 06:39:13,033 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci.main:jenkins-test-harness:2.38
+2022-09-15 06:39:13,767 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-webapp/9.4.5.v20170502/jetty-webapp-9.4.5.v20170502-sources.jar
+2022-09-15 06:39:14,407 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-webapp/9.4.5.v20170502/jetty-webapp-9.4.5.v20170502-sources.jar
+2022-09-15 06:39:14,412 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-webapp:9.4.5.v20170502
+2022-09-15 06:39:15,341 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-xml/9.4.5.v20170502/jetty-xml-9.4.5.v20170502-sources.jar
+2022-09-15 06:39:15,850 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-xml/9.4.5.v20170502/jetty-xml-9.4.5.v20170502-sources.jar
+2022-09-15 06:39:15,854 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-xml:9.4.5.v20170502
+2022-09-15 06:39:17,075 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-util/9.4.5.v20170502/jetty-util-9.4.5.v20170502-sources.jar
+2022-09-15 06:39:17,886 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-util/9.4.5.v20170502/jetty-util-9.4.5.v20170502-sources.jar
+2022-09-15 06:39:17,889 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-util:9.4.5.v20170502
+2022-09-15 06:39:18,789 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-servlet/9.4.5.v20170502/jetty-servlet-9.4.5.v20170502-sources.jar
+2022-09-15 06:39:19,630 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-servlet/9.4.5.v20170502/jetty-servlet-9.4.5.v20170502-sources.jar
+2022-09-15 06:39:19,633 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-servlet:9.4.5.v20170502
+2022-09-15 06:39:20,636 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-security/9.4.5.v20170502/jetty-security-9.4.5.v20170502-sources.jar
+2022-09-15 06:39:21,268 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-security/9.4.5.v20170502/jetty-security-9.4.5.v20170502-sources.jar
+2022-09-15 06:39:21,271 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-security:9.4.5.v20170502
+2022-09-15 06:39:22,071 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-server/9.4.5.v20170502/jetty-server-9.4.5.v20170502-sources.jar
+2022-09-15 06:39:23,412 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-server/9.4.5.v20170502/jetty-server-9.4.5.v20170502-sources.jar
+2022-09-15 06:39:23,416 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-server:9.4.5.v20170502
+2022-09-15 06:39:24,322 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-http/9.4.5.v20170502/jetty-http-9.4.5.v20170502-sources.jar
+2022-09-15 06:39:25,161 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-http/9.4.5.v20170502/jetty-http-9.4.5.v20170502-sources.jar
+2022-09-15 06:39:25,163 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-http:9.4.5.v20170502
+2022-09-15 06:39:25,888 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-io/9.4.5.v20170502/jetty-io-9.4.5.v20170502-sources.jar
+2022-09-15 06:39:26,388 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-io/9.4.5.v20170502/jetty-io-9.4.5.v20170502-sources.jar
+2022-09-15 06:39:26,392 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-io:9.4.5.v20170502
+2022-09-15 06:39:27,088 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3-sources.jar
+2022-09-15 06:39:27,980 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3-sources.jar
+2022-09-15 06:39:27,982 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-library:1.3
+2022-09-15 06:39:29,339 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-test-harness-htmlunit/2.18-1/jenkins-test-harness-htmlunit-2.18-1-sources.jar
+2022-09-15 06:39:29,956 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jenkins-ci/main/jenkins-test-harness-htmlunit/2.18-1/jenkins-test-harness-htmlunit-2.18-1-sources.jar
+2022-09-15 06:39:29,960 [Worker-2: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.jenkins-ci.main:jenkins-test-harness-htmlunit:2.18-1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.jenkins-ci.main:jenkins-test-harness-htmlunit:jar:sources:2.18-1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-15 06:39:31,184 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/xalan/xalan/2.7.2/xalan-2.7.2-sources.jar
+2022-09-15 06:39:33,141 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/xalan/xalan/2.7.2/xalan-2.7.2-sources.jar
+2022-09-15 06:39:33,143 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for xalan:xalan:2.7.2
+2022-09-15 06:39:34,154 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/xalan/serializer/2.7.2/serializer-2.7.2-sources.jar
+2022-09-15 06:39:36,531 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/xalan/serializer/2.7.2/serializer-2.7.2-sources.jar
+2022-09-15 06:39:36,533 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for xalan:serializer:2.7.2
+2022-09-15 06:39:37,636 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar
+2022-09-15 06:39:38,798 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar
+2022-09-15 06:39:38,802 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.4
+2022-09-15 06:39:39,990 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0-sources.jar
+2022-09-15 06:39:41,592 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0-sources.jar
+2022-09-15 06:39:41,594 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for xerces:xercesImpl:2.11.0
+2022-09-15 06:39:42,856 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar
+2022-09-15 06:39:44,257 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar
+2022-09-15 06:39:44,260 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for xml-apis:xml-apis:1.4.01
+2022-09-15 06:39:45,519 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22-sources.jar
+2022-09-15 06:39:46,278 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22-sources.jar
+2022-09-15 06:39:46,280 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.sourceforge.nekohtml:nekohtml:1.9.22
+2022-09-15 06:39:47,158 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/net/sourceforge/cssparser/cssparser/0.9.16/cssparser-0.9.16-sources.jar
+2022-09-15 06:39:47,926 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/net/sourceforge/cssparser/cssparser/0.9.16/cssparser-0.9.16-sources.jar
+2022-09-15 06:39:47,929 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.sourceforge.cssparser:cssparser:0.9.16
+2022-09-15 06:39:49,103 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/w3c/css/sac/1.3/sac-1.3-sources.jar
+2022-09-15 06:39:49,827 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/w3c/css/sac/1.3/sac-1.3-sources.jar
+2022-09-15 06:39:49,829 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.w3c.css:sac:1.3
+2022-09-15 06:39:50,608 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709/websocket-client-9.2.12.v20150709-sources.jar
+2022-09-15 06:39:51,135 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709/websocket-client-9.2.12.v20150709-sources.jar
+2022-09-15 06:39:51,137 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty.websocket:websocket-client:9.2.12.v20150709
+2022-09-15 06:39:51,970 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709-sources.jar
+2022-09-15 06:39:52,706 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709-sources.jar
+2022-09-15 06:39:52,710 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty.websocket:websocket-common:9.2.12.v20150709
+2022-09-15 06:39:53,814 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709/websocket-api-9.2.12.v20150709-sources.jar
+2022-09-15 06:39:54,722 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709/websocket-api-9.2.12.v20150709-sources.jar
+2022-09-15 06:39:54,724 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty.websocket:websocket-api:9.2.12.v20150709
+2022-09-15 06:39:55,554 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jvnet/hudson/embedded-rhino-debugger/1.2/embedded-rhino-debugger-1.2-sources.jar
+2022-09-15 06:39:56,453 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jvnet/hudson/embedded-rhino-debugger/1.2/embedded-rhino-debugger-1.2-sources.jar
+2022-09-15 06:39:56,456 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jvnet.hudson:embedded-rhino-debugger:1.2
+2022-09-15 06:39:57,397 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/netbeans/modules/org-netbeans-insane/RELEASE72/org-netbeans-insane-RELEASE72-sources.jar
+2022-09-15 06:39:57,915 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/netbeans/modules/org-netbeans-insane/RELEASE72/org-netbeans-insane-RELEASE72-sources.jar
+2022-09-15 06:39:57,918 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.netbeans.modules:org-netbeans-insane:RELEASE72
+2022-09-15 06:39:58,759 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/com/github/stephenc/findbugs/findbugs-annotations/1.3.9-1/findbugs-annotations-1.3.9-1-sources.jar
+2022-09-15 06:39:59,187 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/com/github/stephenc/findbugs/findbugs-annotations/1.3.9-1/findbugs-annotations-1.3.9-1-sources.jar
+2022-09-15 06:39:59,189 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.stephenc.findbugs:findbugs-annotations:1.3.9-1
+2022-09-15 06:40:00,306 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/jenkins-ci/test-annotations/1.2/test-annotations-1.2-sources.jar
+2022-09-15 06:40:00,548 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/jenkins-ci/test-annotations/1.2/test-annotations-1.2-sources.jar
+2022-09-15 06:40:00,551 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jenkins-ci:test-annotations:1.2
+2022-09-15 06:40:01,558 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/junit/junit/4.12/junit-4.12-sources.jar
+2022-09-15 06:40:02,569 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/junit/junit/4.12/junit-4.12-sources.jar
+2022-09-15 06:40:02,572 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.12
+2022-09-15 06:40:03,432 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
+2022-09-15 06:40:04,268 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
+2022-09-15 06:40:04,270 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-core:1.3
+2022-09-15 06:40:05,283 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
+2022-09-15 06:40:05,798 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
+2022-09-15 06:40:05,800 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.25
+2022-09-15 06:40:06,521 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/slf4j/log4j-over-slf4j/1.7.25/log4j-over-slf4j-1.7.25-sources.jar
+2022-09-15 06:40:06,938 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/slf4j/log4j-over-slf4j/1.7.25/log4j-over-slf4j-1.7.25-sources.jar
+2022-09-15 06:40:06,942 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:log4j-over-slf4j:1.7.25
+2022-09-15 06:40:08,082 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25-sources.jar
+2022-09-15 06:40:08,677 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25-sources.jar
+2022-09-15 06:40:08,680 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:jcl-over-slf4j:1.7.25
+2022-09-15 06:40:09,602 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/slf4j/slf4j-jdk14/1.7.25/slf4j-jdk14-1.7.25-sources.jar
+2022-09-15 06:40:09,926 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/slf4j/slf4j-jdk14/1.7.25/slf4j-jdk14-1.7.25-sources.jar
+2022-09-15 06:40:09,930 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-jdk14:1.7.25
+2022-09-15 06:40:11,031 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.jenkins-ci.org/public/org/kohsuke/access-modifier-annotation/1.15/access-modifier-annotation-1.15-sources.jar
+2022-09-15 06:40:11,492 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.jenkins-ci.org/public/org/kohsuke/access-modifier-annotation/1.15/access-modifier-annotation-1.15-sources.jar
+2022-09-15 06:40:11,495 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.kohsuke:access-modifier-annotation:1.15
+2022-09-15 06:40:12,251 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-15 06:40:12,251 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-15 06:40:12,252 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-15 06:40:12,252 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ferraz.dsn.pack\Downloads\testcomplete-plugin-master\src\test\resources
+2022-09-15 15:18:47,457 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-09-15 15:48:42,846 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-09-15 15:50:44,940 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
