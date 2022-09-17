@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="br.serratec.org.model.Pessoa"/>
-    <fullyQualifiedTypeName name="br.serratec.org.arquivos.Importador"/>
-    <fullyQualifiedTypeName name="br.serratec.org.model.CalculoINSS"/>
-    <fullyQualifiedTypeName name="br.serratec.org.enuns.INSS"/>
-    <fullyQualifiedTypeName name="br.org.serratec.model.Sorteio"/>
-    <fullyQualifiedTypeName name="br.org.serratec.model.Pessoa"/>
-    <fullyQualifiedTypeName name="java.util.Collection"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.TreeMap"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
@@ -41,8 +32,6 @@
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="br.serratec.org.exception.DependenteException"/>
     <fullyQualifiedTypeName name="br.serratec.org.model.Funcionario"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="javax.swing.ImageIcon"/>
     <fullyQualifiedTypeName name="br.org.serratec.pedido.Pedido"/>
     <fullyQualifiedTypeName name="br.org.serratec.exemplos.TestePedido"/>
     <fullyQualifiedTypeName name="br.org.serratec.model.ExibirDadosAluno"/>
@@ -60,4 +49,15 @@
     <fullyQualifiedTypeName name="br.org.serratec.model.Funcionario"/>
     <fullyQualifiedTypeName name="br.org.serratec.model.Seguro"/>
     <fullyQualifiedTypeName name="br.org.serratec.model.Carro"/>
+    <fullyQualifiedTypeName name="javax.swing.ImageIcon"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Fornecedor"/>
+    <fullyQualifiedTypeName name="java.io.ObjectOutput"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
 </qualifiedTypeNameHistroy>

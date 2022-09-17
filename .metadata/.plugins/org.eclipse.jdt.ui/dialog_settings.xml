@@ -151,4 +151,159 @@
 		<item key="DIALOG_HEIGHT" value="594"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
+	<section name="FatJarPackageWizard">
+		<item key="FatJarPackageWizardPage.ANTSCRIPT_SAVE" value="false"/>
+		<item key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec"/>
+		<item key="FatJarPackageWizardPage.LIBRARY_HANDLING" value="2"/>
+		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="TestePessoa (2) - projeto-final-de-POO"/>
+		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="projeto-final-de-POO\Programa\DPGODX.jar"/>
+		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="projeto-final-de-POO\Programa\DPGODX.jar"/>
+			<item value="projeto-final-de-POO/Programa/DPGODX.jar"/>
+			<item value="C:\Temp\Programa.jar"/>
+		</list>
+		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
+			<item value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec"/>
+			<item value=".xml"/>
+		</list>
+	</section>
+	<section name="JavadocWizardDialog">
+		<item key="DIALOG_X_ORIGIN" value="383"/>
+		<item key="DIALOG_Y_ORIGIN" value="8"/>
+		<item key="DIALOG_WIDTH" value="616"/>
+		<item key="DIALOG_HEIGHT" value="567"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="javadoc">
+		<item key="javadoc_command_history" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.16.8-hotspot\bin\javadoc.exe"/>
+		<item key="fromStandard" value="true"/>
+		<item key="docletname" value=""/>
+		<item key="docletpath" value=""/>
+		<item key="access" value="public"/>
+		<item key="use" value="true"/>
+		<item key="author" value="true"/>
+		<item key="version" value="true"/>
+		<item key="nodeprecated" value="false"/>
+		<item key="nodeprecatedlist" value="false"/>
+		<item key="splitindex" value="true"/>
+		<item key="noindex" value="false"/>
+		<item key="notree" value="false"/>
+		<item key="nonavbar" value="false"/>
+		<item key="openinbrowser" value="false"/>
+		<item key="source" value="11"/>
+		<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula15\javadoc.xml"/>
+		<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula15\doc"/>
+		<section name="projects">
+			<section name="aula03">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula03\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula03\javadoc.xml"/>
+			</section>
+			<section name="aula07">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula07\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula07\javadoc.xml"/>
+			</section>
+			<section name="aula10">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula10\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula10\javadoc.xml"/>
+			</section>
+			<section name="aula14">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula14\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula14\javadoc.xml"/>
+			</section>
+			<section name="projeto-final-de-POO">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\projeto-final-de-POO\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\projeto-final-de-POO\javadoc.xml"/>
+			</section>
+			<section name="exercicio07">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\exercicio07\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\exercicio07\javadoc.xml"/>
+			</section>
+			<section name="aula02">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula02\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula02\javadoc.xml"/>
+			</section>
+			<section name="aula06">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula06\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula06\javadoc.xml"/>
+			</section>
+			<section name="aula13">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula13\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula13\javadoc.xml"/>
+			</section>
+			<section name="exercicio06">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\exercicio06\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\exercicio06\javadoc.xml"/>
+			</section>
+			<section name="aula01">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula01\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula01\javadoc.xml"/>
+			</section>
+			<section name="aula05">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula05\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula05\javadoc.xml"/>
+			</section>
+			<section name="aula09">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula09\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula09\javadoc.xml"/>
+			</section>
+			<section name="aula12">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula12\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula12\javadoc.xml"/>
+			</section>
+			<section name="exercicio05">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\exercicio05\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\exercicio05\javadoc.xml"/>
+			</section>
+			<section name="exercicio12">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\exercicio12\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\exercicio12\javadoc.xml"/>
+			</section>
+			<section name="aula15">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula15\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula15\javadoc.xml"/>
+			</section>
+			<section name="aula04">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula04\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula04\javadoc.xml"/>
+			</section>
+			<section name="aula08">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula08\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula08\javadoc.xml"/>
+			</section>
+			<section name="aula11">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula11\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\aula11\javadoc.xml"/>
+			</section>
+			<section name="exercicio04">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\exercicio04\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\exercicio04\javadoc.xml"/>
+			</section>
+			<section name="exercicio08">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\exercicio08\doc"/>
+				<item key="antpath" value="C:\Users\ferraz.dsn.pack\Documents\Ferraz\Serratec\POO-Serratec\exercicio08\javadoc.xml"/>
+			</section>
+		</section>
+	</section>
 </section>
