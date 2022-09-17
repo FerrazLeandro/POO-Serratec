@@ -11,7 +11,6 @@ import javax.swing.Timer;
 public class Mensagem {
 
 	public void exibirMensagem(String mensagem) {
-		ImageIcon icon = new ImageIcon("Imagem/dp.png");
 		JOptionPane pane = new JOptionPane(mensagem);
 		JDialog dialog = pane.createDialog(null, "TI GÓDX - Departamento Pessoal");
 		

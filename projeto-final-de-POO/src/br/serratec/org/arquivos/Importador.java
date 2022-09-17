@@ -6,6 +6,7 @@ import java.io.PrintWriter;
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 
@@ -21,7 +22,7 @@ public class Importador implements Arquivo {
 	ImageIcon icon = new ImageIcon("Imagem/dp.png");
 	Set<Funcionario> funcionarios = new HashSet<>();
 
-	public void importarArquivo(String arquivoEntrada) throws DependenteException {
+	public String importarArquivo(String arquivoEntrada) throws DependenteException {
 		File arquivo = new File(arquivoEntrada);
 
 		try {
@@ -84,6 +85,8 @@ public class Importador implements Arquivo {
 		}
 		JOptionPane.showMessageDialog(null, "\n" + str, "TI GÓDX - Departamento Pessoal", JOptionPane.PLAIN_MESSAGE,
 				icon);
+
+		return str;
 	}
 
 	public void gravarArquivo(String arquivoSaida) {

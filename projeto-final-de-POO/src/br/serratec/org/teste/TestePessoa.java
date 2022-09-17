@@ -1,28 +1,37 @@
+/**
+ * @author Barbara Souza, Erick Viana, José Ailton Lopes, Leandro Ferraz, Paulo Petersen, Poema Bochner
+ * @since 16/09/2022
+ * @version 1.0
+ */
 package br.serratec.org.teste;
 
 import java.io.File;
+import java.util.HashSet;
+import java.util.Set;
 
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
 import br.serratec.org.arquivos.Importador;
 import br.serratec.org.exception.DependenteException;
+import br.serratec.org.model.Funcionario;
 import br.serratec.org.model.Mensagem;
 
 public class TestePessoa {
-
+	// java -jar programa.jar
 	public static void main(String[] args) throws DependenteException {
 		ImageIcon icon = new ImageIcon("Imagem/dp.png");
+		String arquivo;
+		Importador importador = new Importador();
+		Mensagem mensagem = new Mensagem();
+		
 		try {
-			String arquivo;
-			Importador importador = new Importador();
-			Mensagem mensagem = new Mensagem();
-
 			arquivo = JOptionPane.showInputDialog(
 					"        TI GÓDX - Departamento Pessoal\n\n Informe o caminho onde está o arquivo:      ",
 					"Arquivo/Funcionarios.txt");
 
 			importador.importarArquivo(arquivo);
+			
 
 			mensagem.exibirMensagem("   Processando folha de pagamento, aguarde...  ");
 
